@@ -1,0 +1,6 @@
+# _config.yml
+title: My Website
+description: A simple website.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://themessianicmission.github.io" # the base hostname & protocol for your site
+theme: minima
