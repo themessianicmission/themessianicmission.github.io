@@ -47,6 +47,29 @@ footer {
 .img-right {
     float: right;
     margin: 0 0 1rem 1rem;
+    max-width: 100%; /* Ensure the image does not exceed the container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.clear {
+    clear: both;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 600px) {
+    .img-right {
+        float: none; /* Disable floating on small screens */
+        display: block;
+        margin: 0 auto 1rem auto; /* Center the image and add margin */
+    }
+
+    main {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+}
+.img-right {
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 }
 
