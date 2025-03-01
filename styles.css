@@ -62,10 +62,10 @@ nav ul li {
 nav ul li ul.dropdown {
     display: none;
     position: absolute;
-    top: 100%;
-    left: 0;
+    top: 0;
+    left: 100%;
     background-color: #444;
-    width: 100%;
+    min-width: 200px;
 }
 
 nav ul li:hover ul.dropdown {
