@@ -9,32 +9,63 @@
 <body>
     <header>
         <h1>The Messianic Mission</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <p class="slogan"><em>Protecting God's People</em></p>
+        <div class="nav-container">
+            <button class="hamburger" onclick="toggleNav()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">About</a>
+                <ul>
+                    <li><a href="#">The Mission</a></li>
+                    <li><a href="#">The Idea</a></li>
+                    <li><a href="#">The Origin</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+                <ul>
+                    <li><a href="#">The Board</a></li>
+                    <li><a href="#">Donations</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <main>
         <section id="home">
             <h2>Home</h2>
             <p>From Dallas, Texas, United States to New City, Jerusalem, Israel,</p>
             <p>we are lighting the Way to God by spreading His Word to those who </p>
             <p>have ears for listening. We walk between communities serving the </p>
-	    <p>Lord through leading examples of what Jesus Christ would do today.</p>
-	    <p>"So you also must be ready, because the Son of Man will come at an hour when you do not expect him."</p>
-	    <p>— Matthew 24:44 (NIV)</p>
-	    <p>Prepare. Unite. Await His Return.</p>
-	    <img src="/images/1I6yoJ-k.jpeg" alt="The Messianic Mission" class="img-right">
-	    <div class="clear"></div>
+            <p>Lord through leading examples of what Jesus Christ would do today.</p>
+            <p>"So you also must be ready, because the Son of Man will come at an hour when you do not expect him."</p>
+            <p>— Matthew 24:44 (NIV)</p>
+            <p>Prepare. Unite. Await His Return.</p>
+            <img src="/images/1I6yoJ-k.jpeg" alt="The Messianic Mission" class="img-right">
+            <div class="clear"></div>
         </section>
         <section id="about">
+            <!-- About section content -->
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 The Messianic Mission</p>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
+            <a href="accessibility.html">Accessibility</a>
+        </div>
     </footer>
-    <script src="script.js"></script>
+    <script>
+        function toggleNav() {
+            document.body.classList.toggle('show-nav');
+        }
+    </script>
 </body>
 </html>
