@@ -59,7 +59,7 @@ nav ul li {
     position: relative;
 }
 
-nav ul li ul {
+nav ul li ul.dropdown {
     display: none;
     position: absolute;
     top: 100%;
@@ -68,11 +68,11 @@ nav ul li ul {
     width: 100%;
 }
 
-nav ul li:hover ul {
+nav ul li:hover ul.dropdown {
     display: block;
 }
 
-nav ul li ul li {
+nav ul li ul.dropdown li {
     width: 100%;
 }
 
