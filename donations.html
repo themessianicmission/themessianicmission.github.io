@@ -8,19 +8,38 @@
 </head>
 <body>
     <header>
-        <h1>Donations</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="donations.html">Donations</a></li>
-            </ul>
-        </nav>
+        <h1>Donations</h1>       
+         <p class="slogan"><em>Protecting God's People</em></p>
+        <div class="nav-container">
+            <button class="hamburger" onclick="toggleNav()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">About</a>
+                <ul class="dropdown">
+                    <li><a href="mission.html">The Mission</a></li>
+                    <li><a href="idea.html">The Idea</a></li>
+                    <li><a href="origin.html">The Origin</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+                <ul class="dropdown">
+                    <li><a href="board.html">The Board</a></li>
+                    <li><a href="donations.html">Donations</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <main>
         <section>
             <h2>Donations</h2>
-            <p>themessianicmission@gmail.com</p>
             <p>
                 Please, visit our <a href="https://www.givesendgo.com/TheMission" target="_blank">official donation page</a>
             </p>
@@ -31,6 +50,11 @@
     </main>
     <footer>
         <p>&copy; 2025 The Messianic Mission</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="terms.html">Terms of Use</a>
+            <a href="accessibility.html">Accessibility</a>
+        </div>
     </footer>
 </body>
 </html>
