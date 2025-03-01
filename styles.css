@@ -45,7 +45,6 @@ nav a {
     text-decoration: none;
     padding: 1rem;
     display: block;
-    width: 100%;
     text-align: center;
 }
 
@@ -65,7 +64,7 @@ nav ul li ul.dropdown {
     top: 0;
     left: 100%;
     background-color: #444;
-    min-width: 200px;
+    min-width: fit-content;
 }
 
 nav ul li:hover ul.dropdown {
