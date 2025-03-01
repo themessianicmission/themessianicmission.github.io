@@ -56,6 +56,7 @@ nav ul {
 
 nav ul li {
     position: relative;
+    width: auto;
 }
 
 nav ul li ul.dropdown {
@@ -64,7 +65,7 @@ nav ul li ul.dropdown {
     top: 0;
     left: 100%;
     background-color: #444;
-    min-width: fit-content;
+    min-width: max-content;
 }
 
 nav ul li:hover ul.dropdown {
@@ -72,7 +73,7 @@ nav ul li:hover ul.dropdown {
 }
 
 nav ul li ul.dropdown li {
-    width: 100%;
+    width: auto;
 }
 
 .hamburger {
