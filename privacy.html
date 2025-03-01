@@ -9,7 +9,33 @@
 <body>
     <header>
         <h1>Privacy Policy</h1>
+        <div class="nav-container">
+            <button class="hamburger" onclick="toggleNav()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
     </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">About</a>
+                <ul class="dropdown">
+                    <li><a href="mission.html">The Mission</a></li>
+                    <li><a href="idea.html">The Idea</a></li>
+                    <li><a href="origin.html">The Origin</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+                <ul class="dropdown">
+                    <li><a href="board.html">The Board</a></li>
+                    <li><a href="donations.html">Donations</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
     <main>
         <section>
             <h2>Introduction</h2>
@@ -35,10 +61,11 @@
     <footer>
         <p>&copy; 2025 The Messianic Mission</p>
         <div class="footer-links">
-            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy Policy</a>
             <a href="terms.html">Terms of Use</a>
             <a href="accessibility.html">Accessibility</a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
