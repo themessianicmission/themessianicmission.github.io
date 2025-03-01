@@ -52,6 +52,12 @@
     <loc>https://themessianicmission.github.io/accessibility.html</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://themessianicmission.github.io/news.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
