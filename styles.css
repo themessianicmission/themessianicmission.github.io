@@ -142,6 +142,14 @@ footer {
     clear: both;
 }
 
+/* Board Member Photos */
+.board-photo {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    margin: 1rem 0;
+}
+
 /* Responsive design for mobile devices */
 @media (max-width: 600px) {
     main {
