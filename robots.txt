@@ -1,0 +1,18 @@
+# Allow all robots to access the entire site
+User-agent: *
+Disallow:
+
+# Block access to the admin area
+User-agent: *
+Disallow: /admin/
+
+# Block access to private files
+User-agent: *
+Disallow: /private/
+
+# Prevent crawling of duplicate content
+User-agent: *
+Disallow: /duplicate-content/
+
+# Link to the sitemap
+Sitemap: https://www.themessianicmission.com/sitemap.xml
