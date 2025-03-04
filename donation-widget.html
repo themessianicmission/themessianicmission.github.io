@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Widget</title>
+    <style>
+        .donation-widget {
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .donation-widget h2 {
+            margin-bottom: 20px;
+        }
+        .donation-widget button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .donation-widget button:hover {
+            background-color: #45a049;
+        }
+        .donation-widget .crypto, .donation-widget .stock {
+            display: none;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="donation-widget">
+        <h2>Donate to Our Mission</h2>
+        <button onclick="showCrypto()">Donate with Crypto</button>
+        <button onclick="showStock()">Donate with Stocks</button>
+        <div class="crypto">
+            <p>Please send your cryptocurrency donations to the following address:</p>
+            <p><strong>Bitcoin:</strong> 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</p>
+            <p><strong>Ethereum:</strong> 0x742d35Cc6634C0532925a3b844Bc454e4438f44e</p>
+            <!-- Add more cryptocurrency addresses as needed -->
+        </div>
+        <div class="stock">
+            <p>Please contact us at <a href="mailto:donate@example.com">donate@example.com</a> for stock donation instructions.</p>
+        </div>
+    </div>
+    <script>
+        function showCrypto() {
+            document.querySelector('.crypto').style.display = 'block';
+            document.querySelector('.stock').style.display = 'none';
+        }
+        function showStock() {
+            document.querySelector('.crypto').style.display = 'none';
+            document.querySelector('.stock').style.display = 'block';
+        }
+    </script>
+</body>
+</html>

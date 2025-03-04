@@ -46,6 +46,15 @@
             <img src="/images/8SYwLlWl.jpeg" alt="The Messianic Mission" class="img-right">
             <div class="clear"></div>
         </section>
+<!-- In your existing HTML file -->
+<div id="donation-widget-container"></div>
+<script>
+    fetch('donation-widget.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('donation-widget-container').innerHTML = data;
+        });
+</script>
     </main>
     <footer>
         <p>&copy; 2025 The Messianic Mission</p>
