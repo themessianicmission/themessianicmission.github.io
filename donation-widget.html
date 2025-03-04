@@ -23,13 +23,14 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin: 5px;
         }
         .donation-widget button:hover {
             background-color: #45a049;
         }
         .donation-widget .crypto, .donation-widget .stock {
             display: none;
-            margin-bottom: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -53,6 +54,7 @@
             document.querySelector('.crypto').style.display = 'block';
             document.querySelector('.stock').style.display = 'none';
         }
+
         function showStock() {
             document.querySelector('.crypto').style.display = 'none';
             document.querySelector('.stock').style.display = 'block';
