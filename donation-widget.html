@@ -9,7 +9,7 @@
             border: 2px solid #333;
             border-radius: 10px;
             padding: 20px;
-            max-width: 300px;
+            max-width: 400px;
             margin: 0 auto;
             text-align: center;
         }
@@ -28,36 +28,55 @@
         .donation-widget button:hover {
             background-color: #45a049;
         }
-        .donation-widget .crypto, .donation-widget .stock {
+        .donation-widget .donation-form, .donation-widget .daf-info {
             display: none;
             margin-top: 20px;
+        }
+        .donation-widget label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .donation-widget input[type="text"], .donation-widget input[type="email"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <div class="donation-widget">
         <h2>Donate to Our Mission</h2>
-        <button onclick="showCrypto()">Donate with Crypto</button>
-        <button onclick="showStock()">Donate with Stocks</button>
-        <div class="crypto">
-            <p>Please send your cryptocurrency donations to the following address:</p>
-            <p><strong>Bitcoin:</strong> 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</p>
-            <p><strong>Ethereum:</strong> 0x742d35Cc6634C0532925a3b844Bc454e4438f44e</p>
-            <!-- Add more cryptocurrency addresses as needed -->
+        <button onclick="showDonationForm()">Donate</button>
+        <button onclick="showDAFInfo()">Donate with DAF</button>
+        <div class="donation-form">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="amount">Donation Amount:</label>
+                <input type="text" id="amount" name="amount" required>
+                
+                <button type="submit">Submit Donation</button>
+            </form>
         </div>
-        <div class="stock">
-            <p>Please contact us at <a href="mailto:donate@example.com">donate@example.com</a> for stock donation instructions.</p>
+        <div class="daf-info">
+            <p>Please contact us at <a href="mailto:donate@example.com">donate@example.com</a> for DAF donation instructions.</p>
         </div>
     </div>
     <script>
-        function showCrypto() {
-            document.querySelector('.crypto').style.display = 'block';
-            document.querySelector('.stock').style.display = 'none';
+        function showDonationForm() {
+            document.querySelector('.donation-form').style.display = 'block';
+            document.querySelector('.daf-info').style.display = 'none';
         }
 
-        function showStock() {
-            document.querySelector('.crypto').style.display = 'none';
-            document.querySelector('.stock').style.display = 'block';
+        function showDAFInfo() {
+            document.querySelector('.donation-form').style.display = 'none';
+            document.querySelector('.daf-info').style.display = 'block';
         }
     </script>
 </body>
