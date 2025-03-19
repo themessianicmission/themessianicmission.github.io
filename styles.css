@@ -167,3 +167,7 @@ footer {
 .show-nav nav {
     display: flex;
 }
+/* To center text within an element */
+.center-text {
+    text-align: center;
+}
