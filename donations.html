@@ -46,20 +46,20 @@
             <img src="/images/8SYwLlWl.jpeg" alt="The Messianic Mission" class="img-right">
             <div class="clear"></div>
         </section>
-<form id="contact-form" action="https://contact-form-worker.themessianicmission.workers.dev/" method="POST">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-
-  <label for="subject">Subject:</label>
-  <input type="text" id="subject" name="subject" required>
-
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
-
-  <button type="submit">Send Message</button>
+<form
+  action="https://formspree.io/f/xqapqdvn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
     </main>
     <footer>
