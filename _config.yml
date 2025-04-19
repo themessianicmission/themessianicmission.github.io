@@ -1,6 +1,7 @@
 # _config.yml
 title: The Messianic Mission
-description: Protecting God's People - 501(c)(3)
+description: Protecting God's People
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://themessianicmission.org" # the base hostname & protocol for your site
+image: /images/TheMessianicMission.png
 theme: minima
