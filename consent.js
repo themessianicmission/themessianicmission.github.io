@@ -27,6 +27,11 @@
   }
 
   // 🧠 Load GA function
+// Initialize the global gtag function even if the script hasn't loaded yet
+window.dataLayer = window.dataLayer || [];
+window.gtag = window.gtag || function() { dataLayer.push(arguments); };
+
+// Function to load GA after consent
 function loadGA() {
   const script = document.createElement('script');
   script.src = "https://www.googletagmanager.com/gtag/js?id=G-X6DE164TJV";
@@ -34,10 +39,7 @@ function loadGA() {
   document.head.appendChild(script);
 
   script.onload = function () {
-    // Ensure gtag is available globally
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function() { window.dataLayer.push(arguments); }  // Assign gtag to window
-    gtag('js', new Date()); // Initialize gtag
+    gtag('js', new Date()); // Initialize Google Analytics
     gtag('config', 'G-X6DE164TJV'); // Configure GA
   };
 }
