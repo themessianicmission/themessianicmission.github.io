@@ -27,18 +27,18 @@
   }
 
   // 🧠 Load GA function
-  function loadGA() {
-    const script = document.createElement('script');
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-X6DE164TJV";
-    script.async = true;
-    document.head.appendChild(script);
+function loadGA() {
+  const script = document.createElement('script');
+  script.src = "https://www.googletagmanager.com/gtag/js?id=G-X6DE164TJV";
+  script.async = true;
+  document.head.appendChild(script);
 
-    script.onload = function () {
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      window.gtag = gtag;
-      gtag('js', new Date());
-      gtag('config', 'G-X6DE164TJV');
-    };
-  }
+  script.onload = function () {
+    // Ensure gtag is available globally
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function() { window.dataLayer.push(arguments); }  // Assign gtag to window
+    gtag('js', new Date()); // Initialize gtag
+    gtag('config', 'G-X6DE164TJV'); // Configure GA
+  };
+}
 })();
