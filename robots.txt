@@ -15,4 +15,4 @@ User-agent: *
 Disallow: /duplicate-content/
 
 # Link to the sitemap
-Sitemap: https://www.themessianicmission.com/sitemap.xml
+Sitemap: https://themessianicmission.org/sitemap.xml
