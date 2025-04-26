@@ -118,26 +118,6 @@ section p {
     text-align: center;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    width: 100%;
-    position: relative;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.footer-links a {
-    color: #fff;
-    text-decoration: none;
-}
 
 .img-right {
     display: block;
@@ -168,4 +148,63 @@ footer {
 /* Show nav when hamburger is clicked */
 .show-nav nav {
     display: flex;
+}
+/* Footer Style */
+footer {
+    background-color: #333;  /* Dark footer background */
+    color: #fff;  /* White text color */
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: relative;
+}
+
+/* Footer Text */
+footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #f1c40f;  /* Gold hover effect */
+}
+
+/* Social Icons Container */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+/* Social Icon Style */
+.social-icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover Effects for Icons */
+.social-icon:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
+/* Accessibility: Outline on Focus */
+a[aria-label]:focus {
+    outline: 3px solid #f1c40f;  /* Gold outline for better accessibility */
 }
