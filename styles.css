@@ -26,6 +26,11 @@ header a:hover {
     color: #f1c40f;  /* Gold hover effect */
 }
 
+/* Apply gold hover effect on navigation links */
+header nav a:hover {
+    color: #f1c40f;  /* Gold hover effect */
+}
+
 .slogan {
     margin: 0;
     font-style: italic;
