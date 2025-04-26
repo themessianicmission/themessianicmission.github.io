@@ -31,6 +31,16 @@ header nav a:hover {
     color: #f1c40f;  /* Gold hover effect */
 }
 
+/* Apply gold hover effect on navigation links inside the header */
+nav a:hover {
+    color: #f1c40f;  /* Gold hover effect */
+}
+
+/* Make sure that the links inside the dropdown menu also have the gold hover effect */
+nav .dropdown a:hover {
+    color: #f1c40f;  /* Gold hover effect */
+}
+
 .slogan {
     margin: 0;
     font-style: italic;
