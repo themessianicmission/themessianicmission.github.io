@@ -22,6 +22,10 @@ header h1 {
     margin: 0;
 }
 
+header a:hover {
+    color: #f1c40f;  /* Gold hover effect */
+}
+
 .slogan {
     margin: 0;
     font-style: italic;
@@ -202,9 +206,4 @@ footer p {
 .social-icon:hover {
     transform: scale(1.2);
     filter: brightness(1.2);
-}
-
-/* Accessibility: Outline on Focus */
-a[aria-label]:focus {
-    outline: 3px solid #f1c40f;  /* Gold outline for better accessibility */
 }
