@@ -1,18 +1,13 @@
-# Allow all robots to access the entire site
-User-agent: *
-Disallow:
-
-# Block access to the admin area
 User-agent: *
 Disallow: /admin/
-
-# Block access to private files
-User-agent: *
 Disallow: /private/
-
-# Prevent crawling of duplicate content
-User-agent: *
 Disallow: /duplicate-content/
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /*?s=
+Disallow: /*?replytocom=
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.zip$
 
-# Link to the sitemap
 Sitemap: https://themessianicmission.org/sitemap.xml
