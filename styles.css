@@ -223,25 +223,7 @@ footer p {
     filter: brightness(1.2);
 }
 
-.hero-button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #333;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 1.1rem;
-  border-radius: 6px;
-  transition: color 0.3s ease;
-}
-
-.hero-button:hover {
-  color: #f1c40f;
-}
-
-.share-button {
+.button {
   display: inline-block;
   padding: 12px 24px;
   background-color: #333;
@@ -257,5 +239,5 @@ footer p {
   transition: color 0.3s ease;
 }
 
-.share-button:hover {
+.button:hover {
   color: #f1c40f;
