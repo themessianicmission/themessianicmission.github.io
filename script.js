@@ -14,3 +14,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     });
 });
+
+// Share the News button logic
+function shareNews() {
+    if (navigator.share) {
+        navigator.share({
+            title: 'The Messianic Mission',
+            text: 'Check out this powerful update from The Messianic Mission!',
+            url: window.location.href,
+        })
+        .then(() => console.log('Thanks for sharing!'))
+        .catch(console.error);
+    } else {
+        alert('Sharing not supported on this browser. Please copy the link manually.');
+    }
+}
