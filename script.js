@@ -20,7 +20,7 @@ function shareNews() {
     if (navigator.share) {
         navigator.share({
             title: 'The Messianic Mission',
-            text: 'Check out this powerful update from The Messianic Mission!',
+            text: 'Check out this powerful update!',
             url: window.location.href,
         })
         .then(() => console.log('Thanks for sharing!'))
