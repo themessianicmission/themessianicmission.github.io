@@ -241,3 +241,23 @@ footer p {
 
 .button:hover {
   color: #f1c40f;
+}
+
+.small-button {
+  display: inline-block;
+  padding: 6px 12px; /* Half the padding */
+  background-color: #333;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.75rem; /* Smaller font size */
+  border-radius: 6px;
+  transition: color 0.3s ease;
+}
+
+.small-button:hover {
+  color: #f1c40f;
+}
+
