@@ -147,6 +147,7 @@ section p {
 
 .clear {
     clear: both;
+    margin-bottom: 2rem;
 }
 
 /* Board Member Photos */
