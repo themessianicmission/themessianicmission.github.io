@@ -3,7 +3,7 @@
 At The Messianic Mission, we take security seriously. If you discover a security vulnerability in this repository, please follow these steps:
 
 ## Reporting a Vulnerability
-- Email the security team at: security@themessianicmission.org
+- Email the security team at: info@themessianicmission.org
 - Please provide as much detail as possible, including:
   - Steps to reproduce the issue
   - Affected versions

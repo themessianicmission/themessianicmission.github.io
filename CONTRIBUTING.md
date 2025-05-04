@@ -3,7 +3,7 @@
 Thank you for considering contributing to TMM! Here's how you can help:
 
 ## Reporting Issues
-- If you encounter any bugs, please [open an issue](https://github.com/your-org/tmm/issues) with a clear description of the problem.
+- If you encounter any bugs, please [open an issue](https://github.com/themessianicmission/tmm/issues) with a clear description of the problem.
 
 ## Submitting Code
 - Fork this repository

@@ -1,7 +1,37 @@
-# _config.yml
 title: The Messianic Mission
 description: Protecting God's People
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://themessianicmission.org" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://themessianicmission.org"
 image: /images/TheMessianicMission.png
 theme: minima
+lang: en
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+email: info@themessianicmission.org
+author:
+  name: The Messianic Mission
+  url: https://themessianicmission.org
+  twitter: themessianicmission
+  github: themessianicmission
+  youtube: TheMessianicMission
+  instagram: themessianicmission
+  threads: themessianicmission
+  pinterest: themessianicmission
+  spotify: 31sxiiow5cqd76zvylbrkhsmliqm
+sameAs:
+  - "https://www.youtube.com/@TheMessianicMission"
+  - "https://www.threads.net/@themessianicmission"
+  - "https://www.pinterest.com/themessianicmission"
+  - "https://themessianicmission.medium.com"
+  - "https://youtube.com/@themessianicmission"
+  - "https://www.instagram.com/themessianicmission"
+  - "https://github.com/themessianicmission"
+  - "https://www.yelp.com/biz/the-messianic-mission-dallas"
+  - "https://www.cylex.us.com/company/the-messianic-mission-39312051.html"
+  - "https://firmania.com/dallas/the-messianic-mission-18553320"
+  - "https://www.bbb.org/us/tx/dallas/profile/non-profit-organizations/the-messianic-mission-0875-91349029"
+  - "https://www.manta.com/c/m1xbmk6/the-messianic-mission"
+  - "https://www.mapquest.com/us/texas/the-messianic-mission-778274911"
+  - "https://open.spotify.com/user/31sxiiow5cqd76zvylbrkhsmliqm"
+  - "https://x.com/MessianicWalk?t=2rXTpaG_YwoFn0kZ-vdv9g"

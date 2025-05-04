@@ -21,5 +21,5 @@ We welcome contributions! Please refer to the [Contributing guidelines](CONTRIBU
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-- Email: contact@themessianicmission.org
+- Email: info@themessianicmission.org
 - Website: https://themessianicmission.org
