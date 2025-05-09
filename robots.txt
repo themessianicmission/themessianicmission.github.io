@@ -2,8 +2,6 @@ User-agent: *
 Disallow: /admin/
 Disallow: /private/
 Disallow: /duplicate-content/
-Disallow: /wp-login.php
-Disallow: /wp-register.php
 Disallow: /*?s=
 Disallow: /*?replytocom=
 Disallow: /*.pdf$
