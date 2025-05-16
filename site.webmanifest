@@ -1,18 +1,18 @@
 {
   "name": "The Messianic Mission",
-  "short_name": "The Mission",
-  "description": "Spreading God's Word, preparing for the return of Christ.",
+  "short_name": "Messianic",
+  "description": "Protecting God's people in preparation for the return of Christ.",
   "icons": [
     {
-      "src": "/images/android-chrome-192x192.png",
+      "src": "/favicon/android-chrome-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/android-chrome-512x512.png",
+      "src": "/favicon/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
-    }
+    },
   ],
   "start_url": "https://themessianicmission.org",
   "scope": "https://themessianicmission.org",
@@ -23,4 +23,3 @@
   "lang": "en",
   "dir": "ltr"
 }
-
