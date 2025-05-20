@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://themessianicmission.org/</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
+      <image:title>The Messianic Mission — Christ-centered outreach protecting God's people</image:title>
+      <image:caption>Banner image showing mission focus: protecting God's people</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mission Page -->
+  <url>
+    <loc>https://themessianicmission.org/mission</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
+      <image:title>Dove of Peace — The Messianic Mission Logo</image:title>
+      <image:caption>Symbolic logo representing peace and the Holy Spirit</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Idea Page -->
+  <url>
+    <loc>https://themessianicmission.org/idea</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
+      <image:title>Vision of God — Radiant Light</image:title>
+      <image:caption>Artistic depiction of God’s glory and radiant vision</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
+      <image:title>Crowned Vision of God — Divine Majesty</image:title>
+      <image:caption>Glorious vision of God crowned with divine majesty</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Origin Page -->
+  <url>
+    <loc>https://themessianicmission.org/origin</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
+      <image:title>Radiant God — Pencil Sketch with Spheres and Light</image:title>
+      <image:caption>Sketch of divine form radiating light and spherical energy</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
+      <image:title>God Vision — Flower Form with Defined Center</image:title>
+      <image:caption>Enhanced artistic vision of God in flower-like symmetry</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
+      <image:title>Luminous Kaleidoscope — God as Lotus Petal Core</image:title>
+      <image:caption>Kaleidoscopic view symbolizing divine order and light</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Board Page -->
+  <url>
+    <loc>https://themessianicmission.org/board</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
+      <image:title>Brady Schappert — President of The Messianic Mission</image:title>
+      <image:caption>Portrait of Brady, Christ-centered leadership</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
+      <image:title>Ronnie Sekishiro — Vice President</image:title>
+      <image:caption>Leadership profile of outreach-focused vice president</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
+      <image:title>Molly McCray — Secretary of The Messianic Mission</image:title>
+      <image:caption>Portrait of Secretary involved in mission administration</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Donate Page -->
+  <url>
+    <loc>https://themessianicmission.org/donate</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
+      <image:title>Christ Offering His Heart — Donation Invitation</image:title>
+      <image:caption>Radiant depiction of Christ offering love and light</image:caption>
+    </image:image>
+  </url>
+
+  <!-- News Page -->
+  <url>
+    <loc>https://themessianicmission.org/news</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
+      <image:title>Scripture Path — Cross in the Sky</image:title>
+      <image:caption>Heavenly cross guiding through biblical truth</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
+      <image:title>Street Lamp in Darkness — Divine Guidance</image:title>
+      <image:caption>Light in darkness symbolizing God's guidance</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
+      <image:title>Brady Christ Holding Bibles — Evangelism in Action</image:title>
+      <image:caption>Brady distributing Bibles for street ministry and outreach</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
+      <image:title>Istanbul Meeting — Christ, Unity, and Peace</image:title>
+      <image:caption>Photo from peace conference representing Christ-centered unity</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
