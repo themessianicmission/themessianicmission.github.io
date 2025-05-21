@@ -272,6 +272,10 @@ button:focus,
   color: #f1c40f;    /* Gold highlight for keyboard focus */
 }
 
-.hamburger:focus-visible div {
+.hamburger:focus-visible > div {
+  background-color: #f1c40f;
+}
+
+.hamburger:hover > div {
   background-color: #f1c40f;
 }
