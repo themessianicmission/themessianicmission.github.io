@@ -1,49 +1,50 @@
 function toggleNav() {
-    document.body.classList.toggle('show-nav');
+  document.body.classList.toggle('show-nav');
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const dropdowns = document.querySelectorAll('.dropdown');
+  const dropdowns = document.querySelectorAll('.dropdown');
 
-    dropdowns.forEach(dropdown => {
-        const parent = dropdown.parentElement;
-        const toggleLink = parent.querySelector('a[href="#"]');
+  dropdowns.forEach(dropdown => {
+    const parent = dropdown.parentElement;
+    const trigger = parent.querySelector('a');
 
-        // Start hidden
-        dropdown.style.display = 'none';
+    // Hide dropdown initially
+    dropdown.style.display = 'none';
 
-        // Show on mouse hover
-        parent.addEventListener('mouseenter', () => {
-            dropdown.style.display = 'block';
-        });
-
-        // Hide on mouse leave
-        parent.addEventListener('mouseleave', () => {
-            dropdown.style.display = 'none';
-        });
-
-        // Show on focus (tabbed into link)
-        toggleLink?.addEventListener('focus', () => {
-            dropdown.style.display = 'block';
-        });
-
-        // Hide when focus moves away completely
-        parent.addEventListener('focusout', (e) => {
-            setTimeout(() => {
-                if (!parent.contains(document.activeElement)) {
-                    dropdown.style.display = 'none';
-                }
-            }, 50); // short delay prevents conflict with tabbing inside dropdown
-        });
-
-        // Hide on Escape key
-        parent.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                dropdown.style.display = 'none';
-                toggleLink?.focus();
-            }
-        });
+    // Show on mouse hover
+    parent.addEventListener('mouseenter', () => {
+      dropdown.style.display = 'block';
     });
+
+    // Hide on mouse leave
+    parent.addEventListener('mouseleave', () => {
+      dropdown.style.display = 'none';
+    });
+
+    // Show on keyboard focus (Tab into trigger link)
+    trigger.addEventListener('focus', () => {
+      dropdown.style.display = 'block';
+    });
+
+    // Hide when focus leaves the parent
+    parent.addEventListener('focusout', () => {
+      setTimeout(() => {
+        if (!parent.contains(document.activeElement)) {
+          dropdown.style.display = 'none';
+        }
+      }, 10); // Short delay lets Tab move inside menu
+    });
+
+    // Hide dropdown with Escape key
+    parent.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        dropdown.style.display = 'none';
+        trigger.focus(); // Optional: return to main link
+      }
+    });
+  });
+});
 });
 // Share the News button logic
 function shareNews() {
