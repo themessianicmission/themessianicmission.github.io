@@ -274,5 +274,8 @@ button:focus,
 
 .hamburger:focus {
   outline: none;
-  color: #f1c40f;
+}
+
+.hamburger:focus div {
+  background-color: #f1c40f;
 }
