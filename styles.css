@@ -261,3 +261,13 @@ footer p {
   color: #f1c40f;
 }
 
+/* Suppress default browser focus ring and match gold highlight */
+a:focus,
+button:focus,
+.nav-container a:focus,
+.footer-links a:focus,
+.dropdown a:focus {
+  outline: none;
+  box-shadow: none; /* This removes the browser's focus ring rectangle */
+  color: #f1c40f;    /* Gold highlight for keyboard focus */
+}
