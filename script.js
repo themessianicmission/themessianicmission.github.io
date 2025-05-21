@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 100);
     });
 
-    // Hide with Escape key
+    // Hide with Escape key inside dropdown
     parent.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         dropdown.style.display = 'none';
@@ -49,6 +49,13 @@ document.addEventListener('DOMContentLoaded', () => {
         trigger.focus(); // optional: return focus to trigger
       }
     });
+  });
+
+  // Close hamburger nav with Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.body.classList.contains('show-nav')) {
+      document.body.classList.remove('show-nav');
+    }
   });
 });
 
