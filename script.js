@@ -1,16 +1,19 @@
-function toggleNav() {
-  document.body.classList.toggle('show-nav');
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   const dropdowns = document.querySelectorAll('.dropdown');
   const hamburger = document.querySelector('.hamburger');
 
+  let openDropdown = null;
+
   // ESC to close hamburger menu
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && document.body.classList.contains('show-nav')) {
-      document.body.classList.remove('show-nav');
-      hamburger.focus(); // optional but recommended for accessibility
+    if (e.key === 'Escape') {
+      if (openDropdown) {
+        openDropdown.style.display = 'none';
+        openDropdown = null;
+      } else if (document.body.classList.contains('show-nav')) {
+        document.body.classList.remove('show-nav');
+        hamburger.focus();
+      }
     }
   });
 
@@ -24,16 +27,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // Show on mouse hover
     parent.addEventListener('mouseenter', () => {
       dropdown.style.display = 'block';
+      openDropdown = dropdown;
     });
 
     // Hide on mouse leave
     parent.addEventListener('mouseleave', () => {
       dropdown.style.display = 'none';
+      openDropdown = null;
     });
 
     // Show on focus (keyboard Tab)
     trigger.addEventListener('focus', () => {
       dropdown.style.display = 'block';
+      openDropdown = dropdown;
     });
 
     // Hide when focus leaves the parent (keyboard)
@@ -41,16 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
         if (!parent.contains(document.activeElement)) {
           dropdown.style.display = 'none';
+          openDropdown = null;
         }
       }, 100);
-    });
-
-    // Hide with Escape key (dropdown specific)
-    parent.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        dropdown.style.display = 'none';
-        trigger.focus(); // optional: return focus to trigger
-      }
     });
   });
 });
