@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const hamburger = document.querySelector('.hamburger');
   let activeDropdown = null;
 
-  // Global Escape handler
+  // ESC key behavior
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       if (activeDropdown && activeDropdown.style.display === 'block') {
@@ -24,13 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const parent = dropdown.parentElement;
     const trigger = parent.querySelector('a');
 
-    // Hide initially
+    // Initially hide dropdown
     dropdown.style.display = 'none';
 
-    // Mouse hover
+    // Show on hover
     parent.addEventListener('mouseenter', () => {
-      dropdown.style.display = 'block';
-      activeDropdown = dropdown;
+      if (document.body.classList.contains('show-nav')) {
+        dropdown.style.display = 'block';
+        activeDropdown = dropdown;
+      }
     });
 
     parent.addEventListener('mouseleave', () => {
@@ -38,13 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
       if (activeDropdown === dropdown) activeDropdown = null;
     });
 
-    // Keyboard focus
+    // Show on focus (keyboard)
     trigger.addEventListener('focus', () => {
       dropdown.style.display = 'block';
       activeDropdown = dropdown;
     });
 
-    // Focusout cleanup
+    // Hide when focus leaves
     parent.addEventListener('focusout', () => {
       setTimeout(() => {
         if (!parent.contains(document.activeElement)) {
