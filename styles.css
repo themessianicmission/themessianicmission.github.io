@@ -285,3 +285,50 @@ button:focus,
 .hamburger:hover > div {
   background-color: #f1c40f;
 }
+
+/* Language Button in Footer */
+.footer-lang-btn {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.footer-lang-btn:hover,
+.footer-lang-btn:focus {
+  color: #f1c40f;
+  border-color: #f1c40f;
+  outline: none;
+}
+
+/* Dropdown Menu */
+.lang-dropdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 4px;
+  text-align: left;
+  margin-top: 0.5rem;
+  z-index: 1000;
+}
+
+.lang-dropdown li a {
+  display: block;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.lang-dropdown li a:hover,
+.lang-dropdown li a:focus {
+  color: #f1c40f;
+  background-color: #444;
+}

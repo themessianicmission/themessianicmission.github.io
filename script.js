@@ -66,3 +66,71 @@ function shareNews() {
     alert('Sharing not supported on this browser. Please copy the link manually.');
   }
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  const langMap = {
+    'he': 'עברית',
+    'el': 'Ελληνικά',
+    'ar': 'العربية',
+    'es': 'Español',
+    'fr': 'Français',
+    'pt': 'Português',
+    'ru': 'Русский',
+    'tl': 'Tagalog',
+    'am': 'አማርኛ'
+  };
+
+  const supportedLangs = Object.keys(langMap);
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  const currentLangCode = supportedLangs.includes(pathParts[0]) ? pathParts[0] : '';
+  const remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
+
+  const langBtn = document.getElementById('lang-btn');
+  const langMenu = document.getElementById('lang-menu');
+
+  // 🟡 Set the button to the current language + dropdown arrow
+  const currentLangName = langMap[currentLangCode] || 'English';
+  if (langBtn) {
+    langBtn.textContent = `${currentLangName} ▾`;
+  }
+
+  // 🟡 Build dropdown list
+  if (langMenu) {
+    langMenu.innerHTML = '';
+
+    Object.entries(langMap).forEach(([code, name]) => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.textContent = name;
+      a.href = `/${code}/${remainingPath}`;
+      li.appendChild(a);
+      langMenu.appendChild(li);
+    });
+
+    // Add English if current page isn't default
+    if (currentLangCode !== '') {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.textContent = 'English';
+      a.href = `/${remainingPath}`;
+      li.appendChild(a);
+      langMenu.appendChild(li);
+    }
+  }
+
+  // 🟡 Toggle dropdown
+  if (langBtn) {
+    langBtn.addEventListener('click', () => {
+      if (langMenu) {
+        langMenu.style.display = langMenu.style.display === 'none' ? 'block' : 'none';
+      }
+    });
+
+    // 🟡 Close dropdown if clicking elsewhere
+    window.addEventListener('click', function (e) {
+      if (!document.querySelector('.lang-switcher').contains(e.target)) {
+        if (langMenu) langMenu.style.display = 'none';
+      }
+    });
+  }
+});
