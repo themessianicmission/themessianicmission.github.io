@@ -132,5 +132,12 @@ document.addEventListener('DOMContentLoaded', function () {
         if (langMenu) langMenu.style.display = 'none';
       }
     });
+
+    // 🟡 Close dropdown on Escape key
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && langMenu && langMenu.style.display === 'block') {
+        langMenu.style.display = 'none';
+      }
+    });
   }
 });
