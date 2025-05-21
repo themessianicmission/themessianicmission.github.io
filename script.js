@@ -36,13 +36,21 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 100);
     });
 
-    // Hide with Escape key
+    // Hide dropdown and nav with Escape key
     parent.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         dropdown.style.display = 'none';
         trigger.focus(); // optional: return focus to trigger
+        document.body.classList.remove('show-nav'); // Close hamburger nav
       }
     });
+  });
+
+  // Allow Escape to close hamburger menu globally
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.body.classList.remove('show-nav');
+    }
   });
 });
 // Share the News button logic
