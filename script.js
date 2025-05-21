@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const parent = dropdown.parentElement;
     const trigger = parent.querySelector('a');
 
-    // Hide dropdown initially
+    // Initially hide dropdown
     dropdown.style.display = 'none';
 
     // Show on mouse hover
@@ -22,29 +22,28 @@ document.addEventListener('DOMContentLoaded', () => {
       dropdown.style.display = 'none';
     });
 
-    // Show on keyboard focus (Tab into trigger link)
+    // Show on focus (keyboard Tab)
     trigger.addEventListener('focus', () => {
       dropdown.style.display = 'block';
     });
 
-    // Hide when focus leaves the parent
+    // Hide when focus leaves the parent (keyboard)
     parent.addEventListener('focusout', () => {
       setTimeout(() => {
         if (!parent.contains(document.activeElement)) {
           dropdown.style.display = 'none';
         }
-      }, 10); // Short delay lets Tab move inside menu
+      }, 100);
     });
 
-    // Hide dropdown with Escape key
+    // Hide with Escape key
     parent.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         dropdown.style.display = 'none';
-        trigger.focus(); // Optional: return to main link
+        trigger.focus(); // optional: return focus to trigger
       }
     });
   });
-});
 });
 // Share the News button logic
 function shareNews() {
