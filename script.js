@@ -2,39 +2,45 @@ function toggleNav() {
     document.body.classList.toggle('show-nav');
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', () => {
     const dropdowns = document.querySelectorAll('.dropdown');
+
     dropdowns.forEach(dropdown => {
+        const parent = dropdown.parentElement;
+        const toggleLink = parent.querySelector('a[href="#"]');
+
+        // Start hidden
         dropdown.style.display = 'none';
-        dropdown.parentElement.addEventListener('mouseenter', () => {
+
+        // Show on mouse hover
+        parent.addEventListener('mouseenter', () => {
             dropdown.style.display = 'block';
         });
-        dropdown.parentElement.addEventListener('mouseleave', () => {
+
+        // Hide on mouse leave
+        parent.addEventListener('mouseleave', () => {
             dropdown.style.display = 'none';
+        });
 
-        // Show on tabbing into the parent <a> link
-        const toggleLink = parent.querySelector('a[href="#"]');
-        if (toggleLink) {
-            toggleLink.addEventListener('focus', () => {
-                dropdown.style.display = 'block';
-            });
-        }
+        // Show on focus (tabbed into link)
+        toggleLink?.addEventListener('focus', () => {
+            dropdown.style.display = 'block';
+        });
 
-        // Hide on tabbing out of the entire dropdown
-        parent.addEventListener('focusout', () => {
-            // Small delay to wait for next focused element
+        // Hide when focus moves away completely
+        parent.addEventListener('focusout', (e) => {
             setTimeout(() => {
                 if (!parent.contains(document.activeElement)) {
                     dropdown.style.display = 'none';
                 }
-            }, 0);
+            }, 50); // short delay prevents conflict with tabbing inside dropdown
         });
 
-        // Allow ESC key to close dropdown
+        // Hide on Escape key
         parent.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
                 dropdown.style.display = 'none';
-                toggleLink?.focus(); // Return focus to the toggle
+                toggleLink?.focus();
             }
         });
     });
