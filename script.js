@@ -1,15 +1,18 @@
+function toggleNav() {
+  document.body.classList.toggle('show-nav');
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   const dropdowns = document.querySelectorAll('.dropdown');
   const hamburger = document.querySelector('.hamburger');
+  let activeDropdown = null;
 
-  let openDropdown = null;
-
-  // ESC to close hamburger menu
+  // Global Escape handler
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-      if (openDropdown) {
-        openDropdown.style.display = 'none';
-        openDropdown = null;
+      if (activeDropdown && activeDropdown.style.display === 'block') {
+        activeDropdown.style.display = 'none';
+        activeDropdown = null;
       } else if (document.body.classList.contains('show-nav')) {
         document.body.classList.remove('show-nav');
         hamburger.focus();
@@ -21,33 +24,32 @@ document.addEventListener('DOMContentLoaded', () => {
     const parent = dropdown.parentElement;
     const trigger = parent.querySelector('a');
 
-    // Initially hide dropdown
+    // Hide initially
     dropdown.style.display = 'none';
 
-    // Show on mouse hover
+    // Mouse hover
     parent.addEventListener('mouseenter', () => {
       dropdown.style.display = 'block';
-      openDropdown = dropdown;
+      activeDropdown = dropdown;
     });
 
-    // Hide on mouse leave
     parent.addEventListener('mouseleave', () => {
       dropdown.style.display = 'none';
-      openDropdown = null;
+      if (activeDropdown === dropdown) activeDropdown = null;
     });
 
-    // Show on focus (keyboard Tab)
+    // Keyboard focus
     trigger.addEventListener('focus', () => {
       dropdown.style.display = 'block';
-      openDropdown = dropdown;
+      activeDropdown = dropdown;
     });
 
-    // Hide when focus leaves the parent (keyboard)
+    // Focusout cleanup
     parent.addEventListener('focusout', () => {
       setTimeout(() => {
         if (!parent.contains(document.activeElement)) {
           dropdown.style.display = 'none';
-          openDropdown = null;
+          if (activeDropdown === dropdown) activeDropdown = null;
         }
       }, 100);
     });
