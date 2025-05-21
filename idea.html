@@ -107,22 +107,22 @@
             </button>
         </div>
     </header>
-    <nav>
+    <nav role="navigation" aria-label="Main menu">
         <ul>
             <li><a href="/">Home</a></li>
             <li>
-                <a href="#">About</a>
-                <ul class="dropdown">
-                    <li><a href="/mission">The Mission</a></li>
-                    <li><a href="/idea">The Idea</a></li>
-                    <li><a href="/origin">The Origin</a></li>
+                <a href="#" aria-haspopup="true" aria-expanded="false">About</a>
+                <ul class="dropdown" role="menu">
+                    <li role="none"><a role="menuitem" href="/mission">The Mission</a></li>
+                    <li role="none"><a role="menuitem" href="/idea">The Idea</a></li>
+                    <li role="none"><a role="menuitem" href="/origin">The Origin</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#">Contact</a>
-                <ul class="dropdown">
-                    <li><a href="/board">The Board</a></li>
-                    <li><a href="/donate">Donate</a></li>
+                <a href="#" aria-haspopup="true" aria-expanded="false">Contact</a>
+                <ul class="dropdown" role="menu">
+                    <li role="none"><a role="menuitem" href="/board">The Board</a></li>
+                    <li role="none"><a role="menuitem" href="/donate">Donate</a></li>
                 </ul>
             </li>
             <li><a href="/news">Good News</a></li>
