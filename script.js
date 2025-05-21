@@ -11,10 +11,34 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
         dropdown.parentElement.addEventListener('mouseleave', () => {
             dropdown.style.display = 'none';
+
+        // Show on tabbing into the parent <a> link
+        const toggleLink = parent.querySelector('a[href="#"]');
+        if (toggleLink) {
+            toggleLink.addEventListener('focus', () => {
+                dropdown.style.display = 'block';
+            });
+        }
+
+        // Hide on tabbing out of the entire dropdown
+        parent.addEventListener('focusout', () => {
+            // Small delay to wait for next focused element
+            setTimeout(() => {
+                if (!parent.contains(document.activeElement)) {
+                    dropdown.style.display = 'none';
+                }
+            }, 0);
+        });
+
+        // Allow ESC key to close dropdown
+        parent.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                dropdown.style.display = 'none';
+                toggleLink?.focus(); // Return focus to the toggle
+            }
         });
     });
 });
-
 // Share the News button logic
 function shareNews() {
     if (navigator.share) {
