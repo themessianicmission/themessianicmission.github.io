@@ -275,7 +275,3 @@ button:focus,
 .hamburger:focus-visible > div {
   background-color: #f1c40f;
 }
-
-.hamburger:hover > div {
-  background-color: #f1c40f;
-}
