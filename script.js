@@ -4,6 +4,15 @@ function toggleNav() {
 
 document.addEventListener('DOMContentLoaded', () => {
   const dropdowns = document.querySelectorAll('.dropdown');
+  const hamburger = document.querySelector('.hamburger');
+
+  // ESC to close hamburger menu
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.body.classList.contains('show-nav')) {
+      document.body.classList.remove('show-nav');
+      hamburger.focus(); // optional but recommended for accessibility
+    }
+  });
 
   dropdowns.forEach(dropdown => {
     const parent = dropdown.parentElement;
@@ -36,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }, 100);
     });
 
-    // Hide with Escape key
+    // Hide with Escape key (dropdown specific)
     parent.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         dropdown.style.display = 'none';
