@@ -272,10 +272,11 @@ button:focus,
   color: #f1c40f;    /* Gold highlight for keyboard focus */
 }
 
+/* Ensure hamburger bars highlight gold on focus */
 .hamburger:focus {
   outline: none;
 }
 
-.hamburger:focus div {
-  background-color: #f1c40f;
+.hamburger:focus-visible div {
+  background-color: #f1c40f !important;
 }
