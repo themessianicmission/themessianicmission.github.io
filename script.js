@@ -4,21 +4,6 @@ function toggleNav() {
 
 document.addEventListener('DOMContentLoaded', () => {
   const dropdowns = document.querySelectorAll('.dropdown');
-  const hamburger = document.querySelector('.hamburger');
-  let activeDropdown = null;
-
-  // ESC key behavior
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-      if (activeDropdown && activeDropdown.style.display === 'block') {
-        activeDropdown.style.display = 'none';
-        activeDropdown = null;
-      } else if (document.body.classList.contains('show-nav')) {
-        document.body.classList.remove('show-nav');
-        hamburger.focus();
-      }
-    }
-  });
 
   dropdowns.forEach(dropdown => {
     const parent = dropdown.parentElement;
@@ -27,33 +12,36 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initially hide dropdown
     dropdown.style.display = 'none';
 
-    // Show on hover
+    // Show on mouse hover
     parent.addEventListener('mouseenter', () => {
-      if (document.body.classList.contains('show-nav')) {
-        dropdown.style.display = 'block';
-        activeDropdown = dropdown;
-      }
+      dropdown.style.display = 'block';
     });
 
+    // Hide on mouse leave
     parent.addEventListener('mouseleave', () => {
       dropdown.style.display = 'none';
-      if (activeDropdown === dropdown) activeDropdown = null;
     });
 
-    // Show on focus (keyboard)
+    // Show on focus (keyboard Tab)
     trigger.addEventListener('focus', () => {
       dropdown.style.display = 'block';
-      activeDropdown = dropdown;
     });
 
-    // Hide when focus leaves
+    // Hide when focus leaves the parent (keyboard)
     parent.addEventListener('focusout', () => {
       setTimeout(() => {
         if (!parent.contains(document.activeElement)) {
           dropdown.style.display = 'none';
-          if (activeDropdown === dropdown) activeDropdown = null;
         }
       }, 100);
+    });
+
+    // Hide with Escape key
+    parent.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        dropdown.style.display = 'none';
+        trigger.focus(); // optional: return focus to trigger
+      }
     });
   });
 });
