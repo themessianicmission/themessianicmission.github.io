@@ -1,62 +1,62 @@
-function toggleNav() {
-  document.body.classList.toggle('show-nav');
-}
+let submenuOpen = false;
 
-document.addEventListener('DOMContentLoaded', () => {
-  const dropdowns = document.querySelectorAll('.dropdown');
+const dropdowns = document.querySelectorAll('.dropdown');
 
-  dropdowns.forEach(dropdown => {
-    const parent = dropdown.parentElement;
-    const trigger = parent.querySelector('a');
+dropdowns.forEach(dropdown => {
+  const parent = dropdown.parentElement;
+  const trigger = parent.querySelector('a');
 
-    // Initially hide dropdown and set ARIA to false
+  // Initial state
+  dropdown.style.display = 'none';
+  trigger.setAttribute('aria-expanded', 'false');
+
+  // Show on mouse hover or focus
+  const openSubmenu = () => {
+    dropdown.style.display = 'block';
+    trigger.setAttribute('aria-expanded', 'true');
+    submenuOpen = true;
+  };
+
+  const closeSubmenu = () => {
     dropdown.style.display = 'none';
     trigger.setAttribute('aria-expanded', 'false');
+    submenuOpen = false;
+  };
 
-    // Show on mouse hover
-    parent.addEventListener('mouseenter', () => {
-      dropdown.style.display = 'block';
-      trigger.setAttribute('aria-expanded', 'true');
-    });
-
-    // Hide on mouse leave
-    parent.addEventListener('mouseleave', () => {
-      dropdown.style.display = 'none';
-      trigger.setAttribute('aria-expanded', 'false');
-    });
-
-    // Show on focus (keyboard Tab)
-    trigger.addEventListener('focus', () => {
-      dropdown.style.display = 'block';
-      trigger.setAttribute('aria-expanded', 'true');
-    });
-
-    // Hide when focus leaves the parent (keyboard)
-    parent.addEventListener('focusout', () => {
-      setTimeout(() => {
-        if (!parent.contains(document.activeElement)) {
-          dropdown.style.display = 'none';
-          trigger.setAttribute('aria-expanded', 'false');
-        }
-      }, 100);
-    });
-
-    // Hide with Escape key inside dropdown
-    parent.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        dropdown.style.display = 'none';
-        trigger.setAttribute('aria-expanded', 'false');
-        trigger.focus(); // optional: return focus to trigger
+  parent.addEventListener('mouseenter', openSubmenu);
+  parent.addEventListener('mouseleave', closeSubmenu);
+  trigger.addEventListener('focus', openSubmenu);
+  parent.addEventListener('focusout', () => {
+    setTimeout(() => {
+      if (!parent.contains(document.activeElement)) {
+        closeSubmenu();
       }
-    });
+    }, 100);
   });
 
-  // Close hamburger nav with Escape key
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && document.body.classList.contains('show-nav')) {
-      document.body.classList.remove('show-nav');
+  // Hide submenu on Escape
+  parent.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      if (dropdown.style.display === 'block') {
+        closeSubmenu();
+        trigger.focus();
+        e.stopPropagation(); // prevent bubbling to global Escape handler
+      }
     }
   });
+});
+
+// Global Escape: only closes main nav if no submenu is open
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    if (submenuOpen) {
+      // submenu handler takes care of this
+      return;
+    }
+    if (document.body.classList.contains('show-nav')) {
+      document.body.classList.remove('show-nav');
+    }
+  }
 });
 
 // Share the News button logic
