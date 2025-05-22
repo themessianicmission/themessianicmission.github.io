@@ -83,8 +83,16 @@ document.addEventListener('DOMContentLoaded', function () {
   const supportedLangs = Object.keys(langMap);
   const pathParts = window.location.pathname.split('/').filter(Boolean);
   const currentLangCode = supportedLangs.includes(pathParts[0]) ? pathParts[0] : '';
-  let remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
-if (remainingPath === '') remainingPath = 'index';
+let remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
+
+// Only treat as 'index' if there's a language prefix and nothing after it
+if (
+  remainingPath === '' &&
+  pathParts.length === 1 &&
+  supportedLangs.includes(pathParts[0])
+) {
+  remainingPath = 'index';
+}
 
   const langBtn = document.getElementById('lang-btn');
   const langMenu = document.getElementById('lang-menu');
