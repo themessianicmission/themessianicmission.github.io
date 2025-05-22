@@ -1,0 +1,25 @@
+{
+  "name": "The Messianic Mission",
+  "short_name": "Messianic",
+  "description": "Protecting God's people in preparation for the return of Christ.",
+  "icons": [
+    {
+      "src": "../favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+  ],
+  "start_url": "https://themessianicmission.org",
+  "scope": "https://themessianicmission.org",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#333",
+  "background_color": "#333",
+  "lang": "en",
+  "dir": "ltr"
+}
