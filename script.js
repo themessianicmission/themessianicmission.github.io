@@ -67,8 +67,7 @@ function shareNews() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  // Language code to name map
+document.addEventListener('DOMContentLoaded', function () {
   const langMap = {
     'he': 'עברית',
     'el': 'Ελληνικά',
@@ -82,63 +81,62 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const supportedLangs = Object.keys(langMap);
-
-  // Get current path info
   const pathParts = window.location.pathname.split('/').filter(Boolean);
   const currentLangCode = supportedLangs.includes(pathParts[0]) ? pathParts[0] : '';
-  const remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
-
-  // Handle case where path is like /he/ (no file)
-  const currentPage = remainingPath === '' ? 'index.html' : remainingPath;
+  let remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
+if (remainingPath === '') remainingPath = 'index';
 
   const langBtn = document.getElementById('lang-btn');
   const langMenu = document.getElementById('lang-menu');
 
-  // Set button label
+  // 🟡 Set the button to the current language + dropdown arrow
   const currentLangName = langMap[currentLangCode] || 'English';
   if (langBtn) {
     langBtn.textContent = `${currentLangName} ▾`;
   }
 
-  // Populate language menu
+  // 🟡 Build dropdown list
   if (langMenu) {
     langMenu.innerHTML = '';
 
-    for (const [code, name] of Object.entries(langMap)) {
+    Object.entries(langMap).forEach(([code, name]) => {
       const li = document.createElement('li');
       const a = document.createElement('a');
       a.textContent = name;
-      a.href = `/${code}/${currentPage}`;
+      a.href = `/${code}/${remainingPath === 'index' ? 'index' : remainingPath}`;
       li.appendChild(a);
       langMenu.appendChild(li);
-    }
+    });
 
+    // Add English if current page isn't default
     if (currentLangCode !== '') {
       const li = document.createElement('li');
       const a = document.createElement('a');
       a.textContent = 'English';
-      a.href = `/${currentPage}`;
+      a.href = `/${remainingPath}`;
       li.appendChild(a);
       langMenu.appendChild(li);
     }
   }
 
-  // Toggle dropdown
+  // 🟡 Toggle dropdown
   if (langBtn) {
     langBtn.addEventListener('click', () => {
-      langMenu.style.display = langMenu.style.display === 'block' ? 'none' : 'block';
-    });
-
-    // Close on outside click
-    window.addEventListener('click', e => {
-      if (!langBtn.contains(e.target) && !langMenu.contains(e.target)) {
-        langMenu.style.display = 'none';
+      if (langMenu) {
+        langMenu.style.display = langMenu.style.display === 'none' ? 'block' : 'none';
       }
     });
 
-    // Close on Escape key
-    document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') {
+    // 🟡 Close dropdown if clicking elsewhere
+    window.addEventListener('click', function (e) {
+      if (!document.querySelector('.lang-switcher').contains(e.target)) {
+        if (langMenu) langMenu.style.display = 'none';
+      }
+    });
+
+    // 🟡 Close dropdown on Escape key
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && langMenu && langMenu.style.display === 'block') {
         langMenu.style.display = 'none';
       }
     });
