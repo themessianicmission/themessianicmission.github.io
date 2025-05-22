@@ -83,62 +83,56 @@ document.addEventListener('DOMContentLoaded', function () {
   const supportedLangs = Object.keys(langMap);
   const pathParts = window.location.pathname.split('/').filter(Boolean);
   const currentLangCode = supportedLangs.includes(pathParts[0]) ? pathParts[0] : '';
-  let remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
+  const remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
 
   const langBtn = document.getElementById('lang-btn');
   const langMenu = document.getElementById('lang-menu');
 
-  // 🟡 Set the button to the current language + dropdown arrow
   const currentLangName = langMap[currentLangCode] || 'English';
-  if (langBtn) {
-    langBtn.textContent = `${currentLangName} ▾`;
-  }
+  if (langBtn) langBtn.textContent = `${currentLangName} ▾`;
 
-  // 🟡 Build dropdown list
   if (langMenu) {
     langMenu.innerHTML = '';
 
     Object.entries(langMap).forEach(([code, name]) => {
       const li = document.createElement('li');
       const a = document.createElement('a');
+
+      // If no subpath, keep clean index redirect with trailing slash
+      const target = remainingPath ? `/${code}/${remainingPath}` : `/${code}/`;
+      a.href = target;
+
       a.textContent = name;
-      a.href = `/${code}/${remainingPath ? remainingPath : ''}`;
       li.appendChild(a);
       langMenu.appendChild(li);
     });
 
-    // Add English if current page isn't default
+    // Add English fallback if currently in a language folder
     if (currentLangCode !== '') {
       const li = document.createElement('li');
       const a = document.createElement('a');
       a.textContent = 'English';
-      a.href = `/${remainingPath}`;
+      a.href = `/${remainingPath || ''}`;
       li.appendChild(a);
       langMenu.appendChild(li);
     }
   }
 
-  // 🟡 Toggle dropdown
   if (langBtn) {
     langBtn.addEventListener('click', () => {
-      if (langMenu) {
-        langMenu.style.display = langMenu.style.display === 'none' ? 'block' : 'none';
-      }
+      langMenu.style.display = langMenu.style.display === 'none' ? 'block' : 'none';
     });
 
-    // 🟡 Close dropdown if clicking elsewhere
     window.addEventListener('click', function (e) {
       if (!document.querySelector('.lang-switcher').contains(e.target)) {
-        if (langMenu) langMenu.style.display = 'none';
+        langMenu.style.display = 'none';
       }
     });
 
-    // 🟡 Close dropdown on Escape key
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && langMenu && langMenu.style.display === 'block') {
+      if (e.key === 'Escape' && langMenu.style.display === 'block') {
         langMenu.style.display = 'none';
       }
     });
   }
 });
-
