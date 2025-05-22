@@ -83,8 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const supportedLangs = Object.keys(langMap);
   const pathParts = window.location.pathname.split('/').filter(Boolean);
   const currentLangCode = supportedLangs.includes(pathParts[0]) ? pathParts[0] : '';
-  let remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
-if (remainingPath === '') remainingPath = 'index';
+  const remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
 
   const langBtn = document.getElementById('lang-btn');
   const langMenu = document.getElementById('lang-menu');
@@ -103,7 +102,7 @@ if (remainingPath === '') remainingPath = 'index';
       const li = document.createElement('li');
       const a = document.createElement('a');
       a.textContent = name;
-      a.href = `/${code}/${remainingPath === 'index' ? 'index' : remainingPath}`;
+      a.href = `/${code}/${remainingPath}`;
       li.appendChild(a);
       langMenu.appendChild(li);
     });
