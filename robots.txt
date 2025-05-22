@@ -7,5 +7,16 @@ Disallow: /*?replytocom=
 Disallow: /*.pdf$
 Disallow: /*.doc$
 Disallow: /*.zip$
+Disallow: /he/
+Disallow: /ar/
+Disallow: /es/
+Disallow: /fr/
+Disallow: /pt/
+Disallow: /ru/
+Disallow: /tl/
+Disallow: /am/
+Disallow: /el/
 
+Sitemap: https://themessianicmission.org/sitemap-index.xml
 Sitemap: https://themessianicmission.org/sitemap.xml
+Sitemap: https://themessianicmission.org/image-sitemap.xml
