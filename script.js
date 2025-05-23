@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const supportedLangs = Object.keys(langMap);
   const pathParts = window.location.pathname.split('/').filter(Boolean);
   const currentLangCode = supportedLangs.includes(pathParts[0]) ? pathParts[0] : '';
-  // Remove any 'index' handling
   const remainingPath = supportedLangs.includes(pathParts[0]) ? pathParts.slice(1).join('/') : pathParts.join('/');
 
   const langBtn = document.getElementById('lang-btn');
@@ -99,13 +98,16 @@ document.addEventListener('DOMContentLoaded', function () {
   if (langMenu) {
     langMenu.innerHTML = '';
 
+    // Only include other languages, not the current one
     Object.entries(langMap).forEach(([code, name]) => {
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.textContent = name;
-      a.href = `/${code}/${remainingPath}`;
-      li.appendChild(a);
-      langMenu.appendChild(li);
+      if (code !== currentLangCode) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.textContent = name;
+        a.href = `/${code}/${remainingPath}`;
+        li.appendChild(a);
+        langMenu.appendChild(li);
+      }
     });
 
     // Add English if current page isn't default
