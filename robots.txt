@@ -18,4 +18,5 @@ Disallow: /el/
 
 Sitemap: https://themessianicmission.org/sitemap-index.xml
 Sitemap: https://themessianicmission.org/sitemap.xml
+Sitemap: https://themessianicmission.org/hreflang-sitemap.xml
 Sitemap: https://themessianicmission.org/image-sitemap.xml
