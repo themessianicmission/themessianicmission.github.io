@@ -251,5 +251,130 @@
       <image:caption>המשיח זוהר כשהנפשות נאספות אליו, מציג אחדות וישועה</image:caption>
     </image:image>
   </url>
+  
+  <!-- Página de inicio -->
+  <url>
+    <loc>https://themessianicmission.org/</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
+      <image:title>La Misión Mesiánica — Alcance centrado en Cristo protegiendo al pueblo de Dios</image:title>
+      <image:caption>Imagen del banner mostrando el enfoque de la misión: proteger al pueblo de Dios</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Página de la Misión -->
+  <url>
+    <loc>https://themessianicmission.org/mission</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
+      <image:title>Paloma de Paz — Logo de La Misión Mesiánica</image:title>
+      <image:caption>Logo simbólico que representa la paz y el Espíritu Santo</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Página de la Idea -->
+  <url>
+    <loc>https://themessianicmission.org/idea</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
+      <image:title>Visión de Dios — Luz Radiante</image:title>
+      <image:caption>Representación artística de la gloria y la visión radiante de Dios</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
+      <image:title>Visión Coronada de Dios — Majestad Divina</image:title>
+      <image:caption>Visión gloriosa de Dios coronado con majestad divina</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Página del Origen -->
+  <url>
+    <loc>https://themessianicmission.org/origin</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
+      <image:title>Dios Radiante — Boceto a Lápiz con Esferas y Luz</image:title>
+      <image:caption>Boceto de forma divina irradiando luz y energía esférica</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
+      <image:title>Visión de Dios — Forma Floral con Centro Definido</image:title>
+      <image:caption>Visión artística mejorada de Dios en simetría floral</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
+      <image:title>Caleidoscopio Luminoso — Dios como Núcleo de Loto</image:title>
+      <image:caption>Vista caleidoscópica que simboliza el orden divino y la luz</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Página de la Junta -->
+  <url>
+    <loc>https://themessianicmission.org/board</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
+      <image:title>Brady Schappert — Presidente de La Misión Mesiánica</image:title>
+      <image:caption>Retrato de Brady, liderazgo centrado en Cristo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
+      <image:title>Ronnie Sekishiro — Vicepresidente</image:title>
+      <image:caption>Perfil de liderazgo enfocado en el alcance cristiano</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
+      <image:title>Molly McCray — Secretaria de La Misión Mesiánica</image:title>
+      <image:caption>Retrato de la secretaria involucrada en la administración de la misión</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Página de Donaciones -->
+  <url>
+    <loc>https://themessianicmission.org/donate</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
+      <image:title>Cristo Ofreciendo Su Corazón — Invitación a Donar</image:title>
+      <image:caption>Representación radiante de Cristo ofreciendo amor y luz</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Página de Noticias -->
+  <url>
+    <loc>https://themessianicmission.org/news</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
+      <image:title>Camino de las Escrituras — Cruz en el Cielo</image:title>
+      <image:caption>Cruz celestial guiando a través de la verdad bíblica</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
+      <image:title>Farola en la Oscuridad — Guía Divina</image:title>
+      <image:caption>Luz en la oscuridad simbolizando la guía de Dios</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
+      <image:title>Brady Christ Sosteniendo Biblias — Evangelismo en Acción</image:title>
+      <image:caption>Brady distribuyendo Biblias para el ministerio en la calle</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
+      <image:title>Encuentro en Estambul — Cristo, Unidad y Paz</image:title>
+      <image:caption>Foto de la conferencia de paz representando unidad centrada en Cristo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/lion-open-book-city-background-prophecy-covenant.jpg</image:loc>
+      <image:title>León Majestuoso — Vigía de la Palabra en el Mundo Moderno</image:title>
+      <image:caption>Un león guarda una Biblia abierta frente a una ciudad, simbolizando la autoridad de Cristo y el pacto profético</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/threshold-of-israel-prophetic-arrival.jpg</image:loc>
+      <image:title>Mensajero Celestial en la Puerta de la Promesa</image:title>
+      <image:caption>Un profeta se encuentra en la puerta de Israel, iluminado por el cielo, marcando un momento divino en la historia</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
+      <image:title>La Luz de Cristo Reúne a los Fieles en Unidad Eterna</image:title>
+      <image:caption>Cristo brilla mientras las almas se elevan hacia Él, mostrando unidad, salvación y llamado divino</image:caption>
+    </image:image>
+  </url>
 
 </urlset>

@@ -6,60 +6,70 @@
     <loc>https://themessianicmission.org/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/mission</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/mission" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/mission" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/mission" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/idea</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/idea" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/idea" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/idea" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/origin</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/origin" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/origin" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/origin" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/board</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/board" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/board" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/board" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/donate</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/donate" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/donate" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/donate" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/news</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/news" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/news" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/news" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/accessibility</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/accessibility" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/accessibility" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/accessibility" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/privacy</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/privacy" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/privacy" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/privacy" />
   </url>
 
   <url>
     <loc>https://themessianicmission.org/terms</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/terms" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/terms" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/es/terms" />
   </url>
 
 </urlset>
