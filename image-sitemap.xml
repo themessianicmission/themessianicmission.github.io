@@ -126,5 +126,130 @@
       <image:caption>Christ shines as souls rise to Him, showing unity, salvation, and divine calling.</image:caption>
     </image:image>
   </url>
+  
+  <!-- Homepage (Hebrew) -->
+  <url>
+    <loc>https://themessianicmission.org/he/</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
+      <image:title>השליחות המשיחית — שליחות מרכזית במשיח שמגנה על עמו של אלוהים</image:title>
+      <image:caption>תמונת באנר המדגישה את המוקד: הגנה על עמו של אלוהים</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mission Page (Hebrew) -->
+  <url>
+    <loc>https://themessianicmission.org/he/mission</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
+      <image:title>יונת השלום — סמל השליחות המשיחית</image:title>
+      <image:caption>סמל המסמל שלום ורוח הקודש</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Idea Page (Hebrew) -->
+  <url>
+    <loc>https://themessianicmission.org/he/idea</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
+      <image:title>חזון אלוהים — אור קורן</image:title>
+      <image:caption>תיאור אמנותי של תפארת אלוהים וחזון קורן</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
+      <image:title>חזון מוכתר של אלוהים — הדר אלוהי</image:title>
+      <image:caption>חזון נשגב של אלוהים עם כתר מלכות אלוהי</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Origin Page (Hebrew) -->
+  <url>
+    <loc>https://themessianicmission.org/he/origin</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
+      <image:title>סקיצה של אלוהים קורן — כדורים וקרני אור</image:title>
+      <image:caption>סקיצה של דמות אלוהית קורנת עם אנרגיה כדורית</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
+      <image:title>חזון אלוהי — צורת פרח עם מרכז מוגדר</image:title>
+      <image:caption>חזון אמנותי מחוזק של אלוהים בסימטריה פרחונית</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
+      <image:title>קליידוסקופ מואר — אלוהים כגרעין עלי הלוטוס</image:title>
+      <image:caption>תצוגה קליידוסקופית המסמלת סדר אלוהי ואור</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Board Page (Hebrew) -->
+  <url>
+    <loc>https://themessianicmission.org/he/board</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
+      <image:title>בריידי שאפפרט — נשיא השליחות המשיחית</image:title>
+      <image:caption>תמונת פורטרט של בריידי, הנהגה ממוקדת במשיח</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
+      <image:title>רוני סקישירו — סגן הנשיא</image:title>
+      <image:caption>פרופיל הנהגה של סגן נשיא ממוקד בשליחות</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
+      <image:title>מולי מק'קריי — מזכירת השליחות המשיחית</image:title>
+      <image:caption>תמונת פורטרט של המזכירה, עוסקת בניהול המשימה</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Donate Page (Hebrew) -->
+  <url>
+    <loc>https://themessianicmission.org/he/donate</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
+      <image:title>המשיח מציע את לבו — הזמנה לתרומה</image:title>
+      <image:caption>תיאור קורן של המשיח מציע אהבה ואור</image:caption>
+    </image:image>
+  </url>
+
+  <!-- News Page (Hebrew) -->
+  <url>
+    <loc>https://themessianicmission.org/he/news</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
+      <image:title>דרך הכתובים — צלב זוהר בשמיים</image:title>
+      <image:caption>צלב שמיימי שמדריך דרך האמת המקראית</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
+      <image:title>פנס רחוב בוהק — סמל להכוונה אלוהית</image:title>
+      <image:caption>אור בתוך החשכה המסמל את הכוונת אלוהים</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
+      <image:title>בריידי כריסט מחזיק סלי תנ"ך — שליחות בשטח</image:title>
+      <image:caption>בריידי מחלק תנ"כים בעבודת רחוב ובשליחות</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
+      <image:title>פגישת איסטנבול — המשיח, אחדות ושלום</image:title>
+      <image:caption>תמונה מכנס שלום המייצגת אחדות סביב המשיח</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/lion-open-book-city-background-prophecy-covenant.jpg</image:loc>
+      <image:title>אריה שומר על דבר ה' בעיר מודרנית</image:title>
+      <image:caption>אריה שומר על ספר פתוח מול עיר, מסמל סמכות נבואית של המשיח</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/threshold-of-israel-prophetic-arrival.jpg</image:loc>
+      <image:title>שליח מהשמיים בשער ההבטחה</image:title>
+      <image:caption>נביא עומד בשער ישראל, מואר מהשמיים, מסמן רגע אלוהי</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
+      <image:title>אור המשיח מאחד את העם</image:title>
+      <image:caption>המשיח זוהר כשהנפשות נאספות אליו, מציג אחדות וישועה</image:caption>
+    </image:image>
+  </url>
 
 </urlset>
