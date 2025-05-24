@@ -501,5 +501,130 @@
       <image:caption>Le Christ brille alors que les âmes montent vers Lui, illustrant l’unité, le salut et l’appel divin</image:caption>
     </image:image>
   </url>
+  
+  <!-- Домашняя страница -->
+  <url>
+    <loc>https://themessianicmission.org/ru</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
+      <image:title>Мессианская Миссия — служение Христа по защите Божьего народа</image:title>
+      <image:caption>Баннер, отражающий суть миссии: защита Божьего народа</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Страница "Миссия" -->
+  <url>
+    <loc>https://themessianicmission.org/ru/mission</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
+      <image:title>Голубь мира — логотип Мессианской Миссии</image:title>
+      <image:caption>Символический логотип, выражающий мир и Святого Духа</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Страница "Идея" -->
+  <url>
+    <loc>https://themessianicmission.org/ru/idea</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
+      <image:title>Видение Бога — сияющий свет</image:title>
+      <image:caption>Художественное изображение славы Бога и Его сияющего облика</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
+      <image:title>Коронованное видение Бога — Божественное величие</image:title>
+      <image:caption>Славное видение Бога в короне божественного величия</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Страница "Происхождение" -->
+  <url>
+    <loc>https://themessianicmission.org/ru/origin</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
+      <image:title>Сияющий Бог — карандашный набросок со сферами и светом</image:title>
+      <image:caption>Эскиз божественного образа, излучающего свет и сферическую энергию</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
+      <image:title>Видение Бога — форма цветка с выраженным центром</image:title>
+      <image:caption>Углублённое художественное изображение Бога в форме цветка</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
+      <image:title>Световой калейдоскоп — Бог в центре лепестков лотоса</image:title>
+      <image:caption>Калейдоскопическое видение, символизирующее божественный порядок и свет</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Страница "Совет директоров" -->
+  <url>
+    <loc>https://themessianicmission.org/ru/board</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
+      <image:title>Брейди Шапперт — Президент Мессианской Миссии</image:title>
+      <image:caption>Портрет Брейди, руководство, сосредоточенное на Христе</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
+      <image:title>Ронни Сэкиширо — Вице-президент</image:title>
+      <image:caption>Профиль руководителя, сосредоточенного на миссионерстве</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
+      <image:title>Молли МакКрей — Секретарь Мессианской Миссии</image:title>
+      <image:caption>Портрет секретаря, участвующего в управлении миссией</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Страница "Пожертвовать" -->
+  <url>
+    <loc>https://themessianicmission.org/ru/donate</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
+      <image:title>Христос предлагает сердце — приглашение к пожертвованию</image:title>
+      <image:caption>Сияющее изображение Христа, предлагающего любовь и свет</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Страница "Новости" -->
+  <url>
+    <loc>https://themessianicmission.org/ru/news</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
+      <image:title>Путь по Писанию — крест в небесах</image:title>
+      <image:caption>Небесный крест, ведущий по истине Священного Писания</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
+      <image:title>Фонарь во тьме — божественное руководство</image:title>
+      <image:caption>Свет во тьме как символ Божьего руководства</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
+      <image:title>Брейди Христос держит Библии — евангелизация в действии</image:title>
+      <image:caption>Брейди раздаёт Библии для уличного служения и миссии</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
+      <image:title>Встреча в Стамбуле — Христос, единство и мир</image:title>
+      <image:caption>Фото с конференции мира, отражающее единство во Христе</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/lion-open-book-city-background-prophecy-covenant.jpg</image:loc>
+      <image:title>Величественный лев хранит Слово в современном мире</image:title>
+      <image:caption>Лев охраняет открытую Библию перед городом — символ власти Христа и пророческого завета</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/threshold-of-israel-prophetic-arrival.jpg</image:loc>
+      <image:title>Посланник небес стоит у врат обетования</image:title>
+      <image:caption>Пророк у врат Израиля, озарённый небом — божественный момент в истории</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
+      <image:title>Свет Христа собирает верных в вечное единство</image:title>
+      <image:caption>Христос сияет, души поднимаются к Нему — образ единства, спасения и призвания</image:caption>
+    </image:image>
+  </url>
 
 </urlset>
