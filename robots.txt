@@ -8,7 +8,6 @@ Disallow: /*.pdf$
 Disallow: /*.doc$
 Disallow: /*.zip$
 Disallow: /ar/
-Disallow: /pt/
 Disallow: /tl/
 Disallow: /am/
 Disallow: /el/

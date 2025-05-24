@@ -1,7 +1,7 @@
 {
-  "name": "The Messianic Mission",
-  "short_name": "Messianic",
-  "description": "Protecting God's people in preparation for the return of Christ.",
+  "name": "A Missão Messiânica",
+  "short_name": "Messiânica",
+  "description": "Protegendo o povo de Deus em preparação para a volta de Cristo."
   "icons": [
     {
       "src": "../favicon/android-chrome-192x192.png",
@@ -14,12 +14,12 @@
       "type": "image/png"
     },
   ],
-  "start_url": "https://themessianicmission.org",
-  "scope": "https://themessianicmission.org",
+  "start_url": "https://themessianicmission.org/pt",
+  "scope": "https://themessianicmission.org/pt",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#333",
   "background_color": "#333",
-  "lang": "en",
+  "lang": "pt",
   "dir": "ltr"
 }
