@@ -335,3 +335,19 @@ button:focus,
   color: #f1c40f;
   background-color: #444;
 }
+
+.charity-status {
+  background-color: #444;
+  border-left: 4px solid #f1c40f;
+  color: #eee;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-radius: 4px;
+}
+
