@@ -7,7 +7,6 @@ Disallow: /*?replytocom=
 Disallow: /*.pdf$
 Disallow: /*.doc$
 Disallow: /*.zip$
-Disallow: /am/
 
 Sitemap: https://themessianicmission.org/sitemap-index.xml
 Sitemap: https://themessianicmission.org/sitemap.xml

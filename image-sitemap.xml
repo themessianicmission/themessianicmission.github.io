@@ -1127,4 +1127,129 @@
     </image:image>
   </url>
 
+  <!-- መነሻ ገፅ -->
+  <url>
+    <loc>https://themessianicmission.org/am/</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
+      <image:title>መሲሐዊ ተልእኮ — የክርስቶስ ማዕከላዊ አገልግሎት ሕዝቡን የሚጠብቅ</image:title>
+      <image:caption>ሕዝቡን መጠበቅ የሚጠቀም የተልእኮ መሪ ምስል</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ተልእኮ ገፅ -->
+  <url>
+    <loc>https://themessianicmission.org/am/mission</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
+      <image:title>የሰላም ርግብ — የመሲሐዊ ተልእኮ አርማ</image:title>
+      <image:caption>ሰላምንና መንፈስ ቅዱስን የሚወክል ምልክታዊ አርማ</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ሃሳብ ገፅ -->
+  <url>
+    <loc>https://themessianicmission.org/am/idea</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
+      <image:title>የእግዚአብሔር ራእይ — የሚያበራ ብርሃን</image:title>
+      <image:caption>የእግዚአብሔር ክብርንና አምላካዊ ራእይን የሚያሳየ ስእል</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
+      <image:title>የአክሊል የተሸከመ እግዚአብሔር — አምላካዊ ክብር</image:title>
+      <image:caption>በአምላካዊ ክብር የተሸከመ የእግዚአብሔር ገለልተኛ ራእይ</image:caption>
+    </image:image>
+  </url>
+
+  <!-- የመነሻ ታሪክ ገፅ -->
+  <url>
+    <loc>https://themessianicmission.org/am/origin</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
+      <image:title>የብርሃን እግዚአብሔር — እንደ ማብራሪያ ንድፍ የተሳሳበ</image:title>
+      <image:caption>ብርሃንንና ክብርን የሚለቀቀ የአምላክ ምሳሌ ስእል</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
+      <image:title>የእግዚአብሔር ራእይ — እንደ አበባ በማዕከል የተገለጠ</image:title>
+      <image:caption>የእግዚአብሔርን ቅዱስ መልክ በአበባ እኩልነት የሚያሳይ የተዘረጋ ስእል</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
+      <image:title>አምላካዊ ብርሃን — በአበባ መልክ ያተከለ መልኩ</image:title>
+      <image:caption>አምላካዊ ትእዛዝና ብርሃንን የሚወክል ካሌዶስኮፕ እይታ</image:caption>
+    </image:image>
+  </url>
+
+  <!-- አስተዳደር ገፅ -->
+  <url>
+    <loc>https://themessianicmission.org/am/board</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
+      <image:title>ብሬዲ ሻፐርት — የመሲሐዊ ተልእኮ አስተዳደር</image:title>
+      <image:caption>በክርስቶስ ማዕከል የተመሰረተ መሪነት የብሬዲ ፎቶ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
+      <image:title>ሮኒ ሴኪሺሮ — የሁለተኛ ፕሬዚዳንት</image:title>
+      <image:caption>በወንጌል የተነደፈ መሪነት ፎቶ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
+      <image:title>ሞሊ ሚክሬ — የመሲሐዊ ተልእኮ ጸሓፊ</image:title>
+      <image:caption>ከአስተዳደሩ ጋር የሚሰራት ጸሓፊ ፎቶ</image:caption>
+    </image:image>
+  </url>
+
+  <!-- መባ ገፅ -->
+  <url>
+    <loc>https://themessianicmission.org/am/donate</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
+      <image:title>የርስት ልቡን የሚያቀርብ ክርስቶስ — የመስጠት ግልፅ ጥሪ</image:title>
+      <image:caption>ክርስቶስ ፍቅርንና ብርሃንን የሚሰጥ የምስል ግልባጭ</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ዜና ገፅ -->
+  <url>
+    <loc>https://themessianicmission.org/am/news</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
+      <image:title>የመጽሐፍ መንገድ — ከመሰረት እስከ ክርስቶስ</image:title>
+      <image:caption>የሰማይ መስቀል በእውነተኛ መንገድ የሚመራ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
+      <image:title>በጨለማ ያብራ መብራት — አምላክ መምሪያ</image:title>
+      <image:caption>በጨለማ ውስጥ የሚበራ ብርሃን የእግዚአብሔር መምሪያን ያመለክታል</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
+      <image:title>ብሬዲ ክርስቶስ መጽሐፍትን በእጁ ይዞ የወንጌል ሥራ በተግባር</image:title>
+      <image:caption>ብሬዲ በመንገድ ላይ መጽሐፍትን እየሰጠ የምስክርነት እንቅስቃሴ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
+      <image:title>ኢስታንቡል ስብሰባ — ክርስቶስ፣ አንድነት፣ ሰላም</image:title>
+      <image:caption>የተሰራ የሰላም ኮንፈረንስ፣ ክርስቶስ በመሀከሉ የተቀመጠ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/lion-open-book-city-background-prophecy-covenant.jpg</image:loc>
+      <image:title>አንበሳው ቃሉን የሚጠብቅ በከተማ ፊት</image:title>
+      <image:caption>አንበሳ መጽሐፉን በከተማ ፊት እየጠበቀ፣ የክርስቶስ ሥልጣንን እና ትንቢተኛ ኪዳንን የሚወክል</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/threshold-of-israel-prophetic-arrival.jpg</image:loc>
+      <image:title>መልአኩ በተስፋ ደጅ ላይ ቆሞ ነው</image:title>
+      <image:caption>ነቢዩ በእስራኤል ደጅ ላይ ቆሞ የአምላክ ታሪክ የሚገለጥበት ጊዜ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
+      <image:title>ብርሃኑ የተደጋጋሚ አንድነትን ይዘረጋል</image:title>
+      <image:caption>ክርስቶስ በብርሃኑ ሕዝቡን ወደ እርሱ ያመጣል፣ ኃይል፣ ድነትና ጥሪን የሚያሳይ</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
