@@ -1001,5 +1001,130 @@
       <image:caption>Христос сияет, души поднимаются к Нему — образ единства, спасения и призвания</image:caption>
     </image:image>
   </url>
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://themessianicmission.org/tl/</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
+      <image:title>Ang Gawain ng Mesiyas — Pag-abot na nakatuon kay Cristo para protektahan ang bayan ng Diyos</image:title>
+      <image:caption>Litrato ng banner na nagpapakita ng layunin ng misyon: protektahan ang bayan ng Diyos</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mission Page -->
+  <url>
+    <loc>https://themessianicmission.org/tl/mission</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
+      <image:title>Kalapati ng Kapayapaan — Logo ng Gawain ng Mesiyas</image:title>
+      <image:caption>Simbolikong logo na kumakatawan sa kapayapaan at Banal na Espiritu</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Idea Page -->
+  <url>
+    <loc>https://themessianicmission.org/tl/idea</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
+      <image:title>Pangitain ng Diyos — Maningning na Liwanag</image:title>
+      <image:caption>Sining na paglalarawan ng kaluwalhatian at maningning na pangitain ng Diyos</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
+      <image:title>Pinutungan na Pangitain ng Diyos — Banal na Karangalan</image:title>
+      <image:caption>Maluwalhating pangitain ng Diyos na may banal na korona</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Origin Page -->
+  <url>
+    <loc>https://themessianicmission.org/tl/origin</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
+      <image:title>Maningning na Diyos — Guhit-lapis na may mga Sfera at Liwanag</image:title>
+      <image:caption>Guhit ng anyo ng Diyos na nagliliwanag ng liwanag at enerhiya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
+      <image:title>Pangitain ng Diyos — Anyong Bulaklak na may Malinaw na Sentro</image:title>
+      <image:caption>Pinalakas na sining ng Diyos sa anyong bulaklak na may simetriya</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
+      <image:title>Maningning na Kaleidoscope — Diyos bilang Pusod ng Lotus</image:title>
+      <image:caption>Kaleidoscopic na pananaw na sumisimbolo ng banal na kaayusan at liwanag</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Board Page -->
+  <url>
+    <loc>https://themessianicmission.org/tl/board</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
+      <image:title>Brady Schappert — Pangulo ng Gawain ng Mesiyas</image:title>
+      <image:caption>Litrato ni Brady, pamumunong nakatuon kay Cristo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
+      <image:title>Ronnie Sekishiro — Pangalawang Pangulo</image:title>
+      <image:caption>Profile ng pamumuno ng pangalawang pangulo na nakatuon sa pag-abot</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
+      <image:title>Molly McCray — Kalihim ng Gawain ng Mesiyas</image:title>
+      <image:caption>Litrato ng Kalihim na kasangkot sa administrasyon ng misyon</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Donate Page -->
+  <url>
+    <loc>https://themessianicmission.org/tl/donate</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
+      <image:title>Iniaalay ni Cristo ang Kanyang Puso — Paanyaya sa Pagbibigay</image:title>
+      <image:caption>Maningning na larawan ni Cristo na nag-aalay ng pag-ibig at liwanag</image:caption>
+    </image:image>
+  </url>
+
+  <!-- News Page -->
+  <url>
+    <loc>https://themessianicmission.org/tl/news</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
+      <image:title>Landas ng Kasulatan — Krus sa Kalangitan</image:title>
+      <image:caption>Langitng krus na gumagabay sa katotohanang biblikal</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
+      <image:title>Ilaw sa Kadiliman — Banal na Gabay</image:title>
+      <image:caption>Liwanag sa gitna ng dilim na sumisimbolo sa gabay ng Diyos</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
+      <image:title>Brady Christ Hawak ang mga Biblia — Ebanghelismo sa Gawa</image:title>
+      <image:caption>Si Brady na namimigay ng Biblia sa ministeryo at pag-abot sa lansangan</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
+      <image:title>Pulong sa Istanbul — Cristo, Pagkakaisa, at Kapayapaan</image:title>
+      <image:caption>Litrato mula sa peace conference na kumakatawan sa pagkakaisang nakasentro kay Cristo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/lion-open-book-city-background-prophecy-covenant.jpg</image:loc>
+      <image:title>Ang Maringal na Leon na Nagbabantay sa Salita sa Gitna ng Makabagong Mundo</image:title>
+      <image:caption>Leon na nagbabantay sa bukas na Biblia sa harap ng lungsod, sumisimbolo sa awtoridad ni Cristo at propetikong tipan.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/threshold-of-israel-prophetic-arrival.jpg</image:loc>
+      <image:title>Sugo ng Langit sa Tarangkahan ng Pangako</image:title>
+      <image:caption>Isang propeta sa tarangkahan ng Israel, na nililiwanagan ng langit, bilang tanda ng banal na sandali sa kasaysayan.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
+      <image:title>Liwanag ni Cristo ang Tumatipon sa Tapat tungo sa Walang Hanggang Pagkakaisa</image:title>
+      <image:caption>Si Cristo ay nagniningning habang ang mga kaluluwa ay lumalapit sa Kanya, nagpapakita ng pagkakaisa, kaligtasan, at banal na pagtawag.</image:caption>
+    </image:image>
+  </url>
 
 </urlset>

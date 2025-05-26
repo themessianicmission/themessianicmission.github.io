@@ -1,7 +1,8 @@
 {
-  "name": "The Messianic Mission",
-  "short_name": "Messianic",
-  "description": "Protecting God's people in preparation for the return of Christ.",
+  "name": "Ang Misyon ng Mesiyas",
+  "short_name": "Mesiyas",
+  "description": "Pinangangalagaan ang bayan ng Diyos bilang paghahanda sa pagbabalik ni Cristo."
+}
   "icons": [
     {
       "src": "../favicon/android-chrome-192x192.png",
@@ -14,12 +15,12 @@
       "type": "image/png"
     },
   ],
-  "start_url": "https://themessianicmission.org",
-  "scope": "https://themessianicmission.org",
+  "start_url": "https://themessianicmission.org/tl",
+  "scope": "https://themessianicmission.org/tl",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#333",
   "background_color": "#333",
-  "lang": "en",
+  "lang": "tl",
   "dir": "ltr"
 }
