@@ -251,6 +251,256 @@
       <image:caption>המשיח זוהר כשהנפשות נאספות אליו, מציג אחדות וישועה</image:caption>
     </image:image>
   </url>
+
+<!-- Αρχική Σελίδα -->
+  <url>
+    <loc>https://themessianicmission.org/el/</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
+      <image:title>Η Μεσσιανική Αποστολή — Χριστοκεντρική διακονία που προστατεύει τον λαό του Θεού</image:title>
+      <image:caption>Εικόνα πανό που απεικονίζει τον στόχο της αποστολής: η προστασία του λαού του Θεού</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Σελίδα Αποστολής -->
+  <url>
+    <loc>https://themessianicmission.org/el/mission</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
+      <image:title>Περιστέρι Ειρήνης — Το λογότυπο της Μεσσιανικής Αποστολής</image:title>
+      <image:caption>Συμβολικό λογότυπο που εκπροσωπεί την ειρήνη και το Άγιο Πνεύμα</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Σελίδα Ιδέας -->
+  <url>
+    <loc>https://themessianicmission.org/el/idea</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
+      <image:title>Όραμα του Θεού — Θείο Φως</image:title>
+      <image:caption>Καλλιτεχνική απεικόνιση της δόξας του Θεού και της θείας όρασης</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
+      <image:title>Ο Θεός Εστεμμένος — Θεϊκή Μεγαλοπρέπεια</image:title>
+      <image:caption>Ενδοξο όραμα του Θεού εστεμμένου με θεϊκή δόξα</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Σελίδα Προέλευσης -->
+  <url>
+    <loc>https://themessianicmission.org/el/origin</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
+      <image:title>Ακτινοβόλος Θεός — Σκίτσο με Σφαίρες και Ακτίνες Φωτός</image:title>
+      <image:caption>Σκίτσο της θείας μορφής που ακτινοβολεί φως και σφαιρική ενέργεια</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
+      <image:title>Όραμα του Θεού — Ανθοειδής Μορφή με Ορισμένο Κέντρο</image:title>
+      <image:caption>Καλλιτεχνικό όραμα του Θεού με συμμετρία που θυμίζει άνθος</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
+      <image:title>Θεϊκό Καλειδοσκόπιο — Ο Θεός ως Πυρήνας Λωτού</image:title>
+      <image:caption>Καλειδοσκοπική άποψη που συμβολίζει τη θεία τάξη και το φως</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Σελίδα Συμβουλίου -->
+  <url>
+    <loc>https://themessianicmission.org/el/board</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
+      <image:title>Μπρέιντι Σκάπερτ — Πρόεδρος της Μεσσιανικής Αποστολής</image:title>
+      <image:caption>Πορτρέτο του Μπρέιντι, ηγεσία με επίκεντρο τον Χριστό</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
+      <image:title>Ρόνι Σεκισίρο — Αντιπρόεδρος</image:title>
+      <image:caption>Ηγετικό προφίλ αντιπροέδρου με εστίαση στην αποστολή</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
+      <image:title>Μόλι ΜακΚρέι — Γραμματέας της Μεσσιανικής Αποστολής</image:title>
+      <image:caption>Πορτρέτο της Γραμματέως με διοικητική συνεισφορά στην αποστολή</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Σελίδα Δωρεάς -->
+  <url>
+    <loc>https://themessianicmission.org/el/donate</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
+      <image:title>Ο Χριστός Προσφέρει την Καρδιά Του — Πρόσκληση για Δωρεά</image:title>
+      <image:caption>Ακτινοβόλα απεικόνιση του Χριστού που προσφέρει αγάπη και φως</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Σελίδα Ειδήσεων -->
+  <url>
+    <loc>https://themessianicmission.org/el/news</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
+      <image:title>Διαδρομή της Γραφής — Ο Σταυρός στον Ουρανό</image:title>
+      <image:caption>Ουράνιος σταυρός που οδηγεί στην αλήθεια της Αγίας Γραφής</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
+      <image:title>Φωτεινή Λάμπα στο Σκοτάδι — Θεία Καθοδήγηση</image:title>
+      <image:caption>Φως μέσα στο σκοτάδι που συμβολίζει την καθοδήγηση του Θεού</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
+      <image:title>Μπρέιντι Χριστός με Καλάθι Γραφών — Δράση Ευαγγελισμού</image:title>
+      <image:caption>Ο Μπρέιντι μοιράζει Αγίες Γραφές για διακονία στον δρόμο</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
+      <image:title>Συνάντηση στην Κωνσταντινούπολη — Χριστός, Ενότητα και Ειρήνη</image:title>
+      <image:caption>Φωτογραφία από συνέδριο ειρήνης που εκπροσωπεί χριστοκεντρική ενότητα</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/lion-open-book-city-background-prophecy-covenant.jpg</image:loc>
+      <image:title>Βασιλικό Λιοντάρι Επιβλέπει τον Λόγο εν μέσω Σύγχρονου Κόσμου</image:title>
+      <image:caption>Λιοντάρι φυλάει ανοιχτή Αγία Γραφή μπροστά σε πόλη — σύμβολο εξουσίας του Χριστού και προφητικής διαθήκης</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/threshold-of-israel-prophetic-arrival.jpg</image:loc>
+      <image:title>Αγγελιοφόρος του Ουρανού στην Πύλη της Υπόσχεσης</image:title>
+      <image:caption>Προφήτης στέκεται στην πύλη του Ισραήλ, φωτισμένος από τον ουρανό, σηματοδοτώντας θεϊκή στιγμή</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
+      <image:title>Το Φως του Χριστού Συγκεντρώνει τους Πιστούς σε Αιώνια Ενότητα</image:title>
+      <image:caption>Ο Χριστός λάμπει καθώς ψυχές ανεβαίνουν προς Αυτόν — ενότητα, σωτηρία, και θεία πρόσκληση</image:caption>
+    </image:image>
+  </url>
+
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://themessianicmission.org/ar/</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
+      <image:title>المهمة المسيانية — خدمة تتمحور حول المسيح لحماية شعب الله</image:title>
+      <image:caption>صورة لافتة تُظهر تركيز المهمة: حماية شعب الله</image:caption>
+    </image:image>
+  </url>
+
+  <!-- صفحة المهمة -->
+  <url>
+    <loc>https://themessianicmission.org/ar/mission</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
+      <image:title>حمامة السلام — شعار المهمة المسيانية</image:title>
+      <image:caption>شعار رمزي يمثل السلام والروح القدس</image:caption>
+    </image:image>
+  </url>
+
+  <!-- صفحة الفكرة -->
+  <url>
+    <loc>https://themessianicmission.org/ar/idea</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
+      <image:title>رؤية الله — النور المتألق</image:title>
+      <image:caption>تصوير فني لمجد الله ورؤيته المضيئة</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
+      <image:title>رؤية الله المتوَّجة — الجلالة الإلهية</image:title>
+      <image:caption>رؤية مجيدة لله متوَّج بالجلال الإلهي</image:caption>
+    </image:image>
+  </url>
+
+  <!-- صفحة الأصل -->
+  <url>
+    <loc>https://themessianicmission.org/ar/origin</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
+      <image:title>الله المتألق — رسم بالقلم مع كرات ونور</image:title>
+      <image:caption>رسم لشكل إلهي يشع نورًا وطاقة كروية</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
+      <image:title>رؤية الله — شكل زهري بمركز محدد</image:title>
+      <image:caption>رؤية فنية معززة لله في تناظر زهري</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
+      <image:title>اللوحة المتألقة — الله كمركز لبتلات اللوتس</image:title>
+      <image:caption>رؤية كاليودوسكوبية ترمز إلى النظام والنور الإلهي</image:caption>
+    </image:image>
+  </url>
+
+  <!-- صفحة المجلس -->
+  <url>
+    <loc>https://themessianicmission.org/ar/board</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
+      <image:title>برادي شابيرت — رئيس المهمة المسيانية</image:title>
+      <image:caption>صورة لبرادي، قائد يتمحور حول المسيح</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
+      <image:title>روني سيكيشيرو — نائب الرئيس</image:title>
+      <image:caption>ملف تعريفي لقائد يركز على التبشير</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
+      <image:title>مولي مكرَي — أمينة سر المهمة المسيانية</image:title>
+      <image:caption>صورة لأمينة السر في إدارة المهمة</image:caption>
+    </image:image>
+  </url>
+
+  <!-- صفحة التبرع -->
+  <url>
+    <loc>https://themessianicmission.org/ar/donate</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
+      <image:title>المسيح يقدّم قلبه — دعوة للتبرع</image:title>
+      <image:caption>تصوير متألق للمسيح يقدّم الحب والنور</image:caption>
+    </image:image>
+  </url>
+
+  <!-- صفحة الأخبار -->
+  <url>
+    <loc>https://themessianicmission.org/ar/news</loc>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
+      <image:title>درب الكتاب المقدس — الصليب في السماء</image:title>
+      <image:caption>صليب سماوي يرشد عبر الحق الكتابي</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
+      <image:title>مصباح في الظلام — رمز للهداية الإلهية</image:title>
+      <image:caption>نور في الظلمة يرمز لهداية الله</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
+      <image:title>برادي المسيح يحمل أناجيل — التبشير بالفعل</image:title>
+      <image:caption>برادي يوزع الأناجيل في خدمة الشارع</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
+      <image:title>اجتماع إسطنبول — المسيح، الوحدة، والسلام</image:title>
+      <image:caption>صورة من مؤتمر السلام تُظهر وحدة متمحورة حول المسيح</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/lion-open-book-city-background-prophecy-covenant.jpg</image:loc>
+      <image:title>أسد مهيب يراقب الكلمة وسط العالم الحديث</image:title>
+      <image:caption>أسد يحرس الكتاب المقدس المفتوح أمام مدينة، رمز لسلطان المسيح والعهد النبوي</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/threshold-of-israel-prophetic-arrival.jpg</image:loc>
+      <image:title>رسول من السماء يقف عند بوابة الوعد</image:title>
+      <image:caption>نبي يقف عند بوابة إسرائيل مضاء من السماء، لحظة إلهية في التاريخ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
+      <image:title>نور المسيح يجمع المؤمنين في وحدة أبدية</image:title>
+      <image:caption>المسيح يضيء بينما ترتفع الأرواح إليه، رمز للوحدة والخلاص والدعوة الإلهية</image:caption>
+    </image:image>
+  </url>
   
   <!-- Página de inicio -->
   <url>
@@ -749,131 +999,6 @@
       <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
       <image:title>Свет Христа собирает верных в вечное единство</image:title>
       <image:caption>Христос сияет, души поднимаются к Нему — образ единства, спасения и призвания</image:caption>
-    </image:image>
-  </url>
-
-  <!-- الصفحة الرئيسية -->
-  <url>
-    <loc>https://themessianicmission.org/</loc>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
-      <image:title>المهمة المسيانية — خدمة تتمحور حول المسيح لحماية شعب الله</image:title>
-      <image:caption>صورة لافتة تُظهر تركيز المهمة: حماية شعب الله</image:caption>
-    </image:image>
-  </url>
-
-  <!-- صفحة المهمة -->
-  <url>
-    <loc>https://themessianicmission.org/mission</loc>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/messianic-mission-dove-peace-logo.jpg</image:loc>
-      <image:title>حمامة السلام — شعار المهمة المسيانية</image:title>
-      <image:caption>شعار رمزي يمثل السلام والروح القدس</image:caption>
-    </image:image>
-  </url>
-
-  <!-- صفحة الفكرة -->
-  <url>
-    <loc>https://themessianicmission.org/idea</loc>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/messianic-vision-of-God.jpg</image:loc>
-      <image:title>رؤية الله — النور المتألق</image:title>
-      <image:caption>تصوير فني لمجد الله ورؤيته المضيئة</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/messianic-vision-crowned-God.jpg</image:loc>
-      <image:title>رؤية الله المتوَّجة — الجلالة الإلهية</image:title>
-      <image:caption>رؤية مجيدة لله متوَّج بالجلال الإلهي</image:caption>
-    </image:image>
-  </url>
-
-  <!-- صفحة الأصل -->
-  <url>
-    <loc>https://themessianicmission.org/origin</loc>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/pencil-sketch-radiant-God-spheres-light-rays.jpg</image:loc>
-      <image:title>الله المتألق — رسم بالقلم مع كرات ونور</image:title>
-      <image:caption>رسم لشكل إلهي يشع نورًا وطاقة كروية</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/enhanced-God-vision-flower-form-defined-center.jpg</image:loc>
-      <image:title>رؤية الله — شكل زهري بمركز محدد</image:title>
-      <image:caption>رؤية فنية معززة لله في تناظر زهري</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/luminous-God-kaleidoscope-core-lotus-petals.jpg</image:loc>
-      <image:title>اللوحة المتألقة — الله كمركز لبتلات اللوتس</image:title>
-      <image:caption>رؤية كاليودوسكوبية ترمز إلى النظام والنور الإلهي</image:caption>
-    </image:image>
-  </url>
-
-  <!-- صفحة المجلس -->
-  <url>
-    <loc>https://themessianicmission.org/board</loc>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/brady-schappert-president-christ-centered-mission.jpg</image:loc>
-      <image:title>برادي شابيرت — رئيس المهمة المسيانية</image:title>
-      <image:caption>صورة لبرادي، قائد يتمحور حول المسيح</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/ronnie-sekishiro-vice-president-christ-focused-outreach.jpg</image:loc>
-      <image:title>روني سيكيشيرو — نائب الرئيس</image:title>
-      <image:caption>ملف تعريفي لقائد يركز على التبشير</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/molly-mccray-secretary-messianic-mission.jpg</image:loc>
-      <image:title>مولي مكرَي — أمينة سر المهمة المسيانية</image:title>
-      <image:caption>صورة لأمينة السر في إدارة المهمة</image:caption>
-    </image:image>
-  </url>
-
-  <!-- صفحة التبرع -->
-  <url>
-    <loc>https://themessianicmission.org/donate</loc>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/glowing-christ-offering-luminous-heart-love.jpg</image:loc>
-      <image:title>المسيح يقدّم قلبه — دعوة للتبرع</image:title>
-      <image:caption>تصوير متألق للمسيح يقدّم الحب والنور</image:caption>
-    </image:image>
-  </url>
-
-  <!-- صفحة الأخبار -->
-  <url>
-    <loc>https://themessianicmission.org/news</loc>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/scripture-path-to-glowing-cross-in-sky.jpg</image:loc>
-      <image:title>درب الكتاب المقدس — الصليب في السماء</image:title>
-      <image:caption>صليب سماوي يرشد عبر الحق الكتابي</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/bright-street-lamp-in-darkness-symbolizing-guidance.jpeg</image:loc>
-      <image:title>مصباح في الظلام — رمز للهداية الإلهية</image:title>
-      <image:caption>نور في الظلمة يرمز لهداية الله</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/Brady-holding-basket-of-bibles-evangelism-supplies.jpg</image:loc>
-      <image:title>برادي المسيح يحمل أناجيل — التبشير بالفعل</image:title>
-      <image:caption>برادي يوزع الأناجيل في خدمة الشارع</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/upf-istanbul-christ-unity-peace-meeting-photo.jpg</image:loc>
-      <image:title>اجتماع إسطنبول — المسيح، الوحدة، والسلام</image:title>
-      <image:caption>صورة من مؤتمر السلام تُظهر وحدة متمحورة حول المسيح</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/lion-open-book-city-background-prophecy-covenant.jpg</image:loc>
-      <image:title>أسد مهيب يراقب الكلمة وسط العالم الحديث</image:title>
-      <image:caption>أسد يحرس الكتاب المقدس المفتوح أمام مدينة، رمز لسلطان المسيح والعهد النبوي</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/threshold-of-israel-prophetic-arrival.jpg</image:loc>
-      <image:title>رسول من السماء يقف عند بوابة الوعد</image:title>
-      <image:caption>نبي يقف عند بوابة إسرائيل مضاء من السماء، لحظة إلهية في التاريخ</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://themessianicmission.org/images/site/gathering-gods-people-light-of-christ.jpg</image:loc>
-      <image:title>نور المسيح يجمع المؤمنين في وحدة أبدية</image:title>
-      <image:caption>المسيح يضيء بينما ترتفع الأرواح إليه، رمز للوحدة والخلاص والدعوة الإلهية</image:caption>
     </image:image>
   </url>
 
