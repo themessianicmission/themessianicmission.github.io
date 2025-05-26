@@ -9,7 +9,6 @@ Disallow: /*.doc$
 Disallow: /*.zip$
 Disallow: /tl/
 Disallow: /am/
-Disallow: /el/
 
 Sitemap: https://themessianicmission.org/sitemap-index.xml
 Sitemap: https://themessianicmission.org/sitemap.xml
