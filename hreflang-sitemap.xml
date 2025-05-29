@@ -3,8 +3,8 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://themessianicmission.org/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org/" />
+    <loc>https://themessianicmission.org</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://themessianicmission.org" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/he/" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/el/" />
     <xhtml:link rel="alternate" hreflang="he" href="https://themessianicmission.org/ar/" />

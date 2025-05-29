@@ -4,7 +4,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://themessianicmission.org/</loc>
+    <loc>https://themessianicmission.org</loc>
     <image:image>
       <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
       <image:title>The Messianic Mission — Christ-centered outreach protecting God's people</image:title>
@@ -504,7 +504,7 @@
   
   <!-- Página de inicio -->
   <url>
-    <loc>https://themessianicmission.org/es</loc>
+    <loc>https://themessianicmission.org/es/</loc>
     <image:image>
       <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
       <image:title>La Misión Mesiánica — Alcance centrado en Cristo protegiendo al pueblo de Dios</image:title>
@@ -629,7 +629,7 @@
 
   <!-- Page d'accueil -->
   <url>
-    <loc>https://themessianicmission.org/fr</loc>
+    <loc>https://themessianicmission.org/fr/</loc>
     <image:image>
       <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
       <image:title>La Mission Messianique — Mission centrée sur le Christ protégeant le peuple de Dieu</image:title>
@@ -754,7 +754,7 @@
   
     <!-- Página Inicial -->
   <url>
-    <loc>https://themessianicmission.org/pt</loc>
+    <loc>https://themessianicmission.org/pt/</loc>
     <image:image>
       <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
       <image:title>A Missão Messiânica — Alcance centrado em Cristo protegendo o povo de Deus</image:title>
@@ -879,7 +879,7 @@
 
   <!-- Домашняя страница -->
   <url>
-    <loc>https://themessianicmission.org/ru</loc>
+    <loc>https://themessianicmission.org/ru/</loc>
     <image:image>
       <image:loc>https://themessianicmission.org/images/site/messianic-mission-protecting-Gods-people.jpg</image:loc>
       <image:title>Мессианская Миссия — служение Христа по защите Божьего народа</image:title>
